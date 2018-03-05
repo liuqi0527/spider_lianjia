@@ -1,0 +1,1196 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="Cache-Control" content="no-transform" /><meta http-equiv="Cache-Control" content="no-siteapp" /><meta http-equiv="Content-language" content="zh-CN" /><meta name="format-detection" content="telephone=no" /><meta name="applicable-device" content="pc"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.lianjia.com/bj/ershoufang/c1111027378022/" >
+<meta name="mobile-agent" content="format=html5;url=https://m.lianjia.com/bj/ershoufang/c1111027378022/"><script>
+ljConf = {
+    city_id: '110000',
+    city_abbr: 'bj',
+    city_name: '北京',
+    channel: 'ershoufang',
+    page: 'ershoufang_search',
+    pageConfig: {"ajaxroot":"\/\/ajax.api.lianjia.com\/","imAppid":"LIANJIA_WEB_20160624","imAppkey":"6dfdcee27d78b1107fceeca55d80b7bd"},
+    feroot: '//s1.ljcdn.com/feroot/',
+    ucid:'',
+    cdn:'0',
+};
+</script>
+
+<!-- 2017.11.8 市场需求加上新的统计 -->
+<!-- 2017.7.18 开放全国 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9152f8221cb6243a53c83b956842be8a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<title>六铺炕二手房|六铺炕二手房出售(北京链家网)</title>
+<script>window.compareGroup = 1;</script>
+<meta name="description" content="链家网为您提供北京六铺炕二手房价格及出售信息,北京六铺炕在售二手房房源6套,链家网展示六铺炕房源为真实在售,真实六铺炕二手房价格,为您选房置业提供信息和服务.更多二手房价格、户型、位置等信息,请关注北京链家网二手房频道." />
+<meta name="keywords" content="六铺炕二手房,六铺炕二手房出售,六铺炕二手房价格" />
+<link href="/favicon.ico" type="image/x-icon" rel=icon><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"><link rel="stylesheet" href="https://s1.ljcdn.com/feroot/pc/asset/common.css?_v=20180223171650444">
+<link rel="stylesheet" href="https://s1.ljcdn.com/feroot/pc/asset/ershoufang/sellListV2/index.css?_v=20180223171650444">
+<!--[if lt IE 9]><script type="text/javascript" src="https://s1.ljcdn.com/feroot/dep/common-require/html5.js?_v=20180223171650444"></script><![endif]-->
+<script>
+function RESIZEIMG(b,k,l,m){var c=b.parentNode;var d=parseInt(c.offsetWidth)||k;var e=parseInt(c.offsetHeight)||l;var f=d/e;var g=b.naturalWidth||b.width;var h=b.naturalHeight||b.height;var i=g/h;var j="width";if(f<i){j="height";try{b.style["left"]="-"+parseInt(Math.abs((d-(g*e/h))/2))+"px"}catch(e){}}else if(m){try{b.style["top"]="-"+parseInt(Math.abs((e-(h*d/g))/2))+"px"}catch(e){}};b.style[j]="100%";};
+</script>
+<script>
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1254525948"]);
+</script>
+
+<script type="text/javascript">
+var _smq = _smq || [];
+_smq.push(['_setAccount', '41331c2', new Date()]);
+_smq.push(['_setDomainName', 'lianjia.com']);
+_smq.push(['pageview']);
+(function() {
+var sm = document.createElement('script'); sm.type = 'text/javascript'; sm.async = true;
+sm.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdnmaster.com/sitemaster/collect.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sm, s);
+})();
+</script>
+</head><body><script>
+__STAT_LJ_CONF = {
+    params: {
+        ljweb_group: ['SEARCH','BIGDATA_PC'],
+        ljweb_id: '',
+        ljweb_mod: '',
+        ljweb_bl: '',
+        ljweb_el: '',
+        ljweb_sl: '',
+        ljweb_index: '',
+        ljweb_value: '',
+        ljweb_url: '',
+        ljweb_ljref: (document.cookie.match(/(?:^| )ljref=([^;]*)(?:;|$)/) || ['',''])[1],
+        ljweb_sample: (document.cookie.match(/(?:^| )sample_traffic_test=([^;]*)(?:;|$)/) || ['',''])[1],
+        ljweb_ref: document.referrer,
+        ljweb_cid: '110000',
+        ljweb_channel: 'ershoufang',
+        ljweb_page: 'ershoufang_search',
+        ljweb_source: '',
+        ljweb_stat_id: ''
+    }
+};
+
+
+
+var UT = {
+    send: function() {
+
+    }
+};
+var LjUserTrack = {
+    log: [],
+    initInterval: false,
+    intervalLog: function() {
+        setTimeout(function() {
+            if(window.$ULOG && $ULOG.send) {
+                for(var i = 0, l = LjUserTrack.log.length; i < l; i++) {
+                    LjUserTrack.__send(LjUserTrack.log[i]);
+                }
+
+                for(var m = 0, n = LjUserTrack.logIds.length; m < n; m++) {
+                    LjUserTrack.__sendId(LjUserTrack.logIds[m]);
+                }
+                for(var j = 0, k = LjUserTrack.logDatas.length; j < k; j++) {
+                    LjUserTrack.__sendData(LjUserTrack.logDatas[j].id, LjUserTrack.logDatas[j].data);
+                }
+            } else {
+                LjUserTrack.intervalLog();
+            }
+        }, 16.7);
+    },
+    _start_time: +new Date,
+    logDatas: [],
+    __sendData: function(id, data) {
+        if(id && (typeof(data) == 'object')){
+          data.pid = (window.__UDL_CONFIG && window.__UDL_CONFIG.pid && window.__UDL_CONFIG.pid)||"lianjiaweb";
+          data.key = window.location.href;
+          window.$ULOG && $ULOG.send(id, data);
+        }
+    },
+    sendData: function(id, data) {
+        if(window.$ULOG && $ULOG.send) {
+            LjUserTrack.__sendData(id, data);
+        } else {
+            LjUserTrack.logDatas.push({id: id, data: data});
+
+            LjUserTrack.initInterval || (LjUserTrack.initInterval = true, LjUserTrack.intervalLog());
+
+        }
+    },
+    __send: function(data) {
+        var evt_id = data.evt_id || '10043';
+        if('evt_id' in data) {
+            delete data.evt_id;
+        }
+
+        window.$ULOG && $ULOG.send(evt_id, {
+            "pid": (window.__UDL_CONFIG && window.__UDL_CONFIG.pid && window.__UDL_CONFIG.pid)||"lianjiaweb",
+            "key": window.location.href,
+            "action": data
+        });
+    },
+    logIds: [],
+    __sendId: function(id) {
+        id && window.$ULOG && window.$ULOG && $ULOG.send(id, {
+            "pid": (window.__UDL_CONFIG && window.__UDL_CONFIG.pid && window.__UDL_CONFIG.pid)||"lianjiaweb",
+            "key": window.location.href
+        });
+    },
+    sendId: function(id) {
+        if(window.$ULOG && $ULOG.send) {
+            LjUserTrack.__sendId(id);
+        } else {
+            LjUserTrack.logIds.push(id);
+
+            LjUserTrack.initInterval || (LjUserTrack.initInterval = true, LjUserTrack.intervalLog());
+
+        }
+    },
+    send: function(data, el, config) {
+
+        var utConf = __STAT_LJ_CONF;
+        var params = config || utConf.params,
+            win = window,
+            j;
+
+        data.groupIndex = data.ljweb_group || 0;
+
+        if (params) {
+            for (var d in params) {
+                if(params[d] !== j && data[d] === j) {
+                    data[d] = params[d];
+                }
+            }
+        }
+
+        if(el) {
+            this.checkClick(el, data);
+        }
+
+        data.ljweb_group = params['ljweb_group'][data.groupIndex || 0];
+
+        delete data.groupIndex;
+
+        if(data.typ) {
+            data.ljweb_bl = (data.ljweb_bl || '') + '_' + data.typ;
+            delete data.typ;
+        }
+
+        if(window.$ULOG && $ULOG.send) {
+            LjUserTrack.__send(data);
+        } else {
+            LjUserTrack.log.push(data);
+
+            LjUserTrack.initInterval || (LjUserTrack.initInterval = true, LjUserTrack.intervalLog());
+
+        }
+
+    },
+    checkClick: function(el, data) {
+
+        var TAG_LINK = 'A';
+        var href = '';
+        var elParent = null;
+
+        href = (el.tagName.toUpperCase() === TAG_LINK ? el.getAttribute("href", 2) : '');
+        if(!href && (elParent = el.parentNode) && elParent.nodeType === 1) {
+            href = (elParent.tagName.toUpperCase() === TAG_LINK ? elParent.getAttribute("href", 2) : '');
+        }
+
+        if(href) {
+            data.ljweb_url = href;
+        } else {
+            data.ljweb_url = data.ljweb_url
+                  || el.getAttribute("data-log_url")
+                  || (elParent=el.parentNode||el).getAttribute("data-log_url")
+                  || (
+                        (elParent=elParent.parentNode||elParent)
+                     && (elParent.nodeType === 1)
+                     && elParent.getAttribute("data-log_url")
+                     )
+                  || "";
+        }
+
+        this.attr(el, data);
+
+    },
+    path: function() {
+
+    },
+    attr: function(el, data) {
+        var modId     = el.getAttribute("log-mod");
+        var blAttr    = el.getAttribute("data-bl");
+        var elAttr    = el.getAttribute("data-el");
+        var slAttr    = el.getAttribute("data-sl");
+        var InAttr    = el.getAttribute("data-log_index");
+        var valAttr   = el.getAttribute("data-log_value");
+        var idAttr    = el.getAttribute("data-log_id");
+        var groupAttr = el.getAttribute("data-log_group");
+        var sourceAttr = el.getAttribute("data-log_source");
+        var statIdAttr = el.getAttribute("data-log_statId");
+        var evtId     = el.getAttribute("data-log_evtid");
+
+        data.ljweb_bl    = data.ljweb_bl || blAttr || '';
+        data.ljweb_el    = data.ljweb_el || elAttr || '';
+        data.ljweb_sl    = data.ljweb_sl || slAttr || '';
+        data.ljweb_index = data.ljweb_index || InAttr || '';
+        data.ljweb_value = data.ljweb_value || valAttr || '';
+        data.ljweb_id    = data.ljweb_id || idAttr || '';
+        data.ljweb_source    = data.ljweb_source || sourceAttr || '';
+        data.ljweb_stat_id    = data.ljweb_stat_id || statIdAttr || 0;
+        data.groupIndex  = data.groupIndex || groupAttr || 0;
+        data.evt_id      = data.evt_id || evtId || '';
+
+        if (!modId) {
+            if (el.parentNode && el.parentNode.nodeType === 1 && el.parentNode.tagName.toUpperCase() !== 'BODY') {
+                this.attr(el.parentNode, data);
+            }
+        } else {
+            data.ljweb_mod = modId;
+        }
+    }
+};
+
+;;(function() {
+    var isW3c = !!document.addEventListener;
+
+    LjUserTrack.send({
+        ljweb_mod: 'pv',
+        ljweb_group: 1
+    });
+
+    /*window[isW3c ? 'addEventListener' : 'attachEvent'](
+        (isW3c ? '': 'on') + 'beforeunload',
+        function(e) {
+            var _end_time = +new Date;
+            UT.send({type: 'show', subtype: 'stay', time: (_end_time-UT._start_time)/1000});
+        },
+        false);*/
+})();
+
+
+
+
+
+</script>
+
+<div class="banner"><div class="container"><ul class="channelList"><li><a href="//www.lianjia.com/">首页</a></li><li  class="selected"><a href="https://bj.lianjia.com/ershoufang/" >二手房</a></li><li  class=""><a href="https://bj.fang.lianjia.com/" >新房</a></li><li  class=""><a href="https://bj.lianjia.com/zufang/" >租房</a></li><li  rel="nofollow"  class=""><a href="http://you.lianjia.com/" >旅居</a></li><li  class=""><a href="https://us.lianjia.com" >海外</a></li><li  class=""><a href="https://bj.lianjia.com/xiaoqu/" >小区</a></li><li  class=""><a href="https://bj.lianjia.com/jingjiren/" >经纪人</a></li><li  class=""><a href="https://bj.lianjia.com/wenda/" >指南</a><div class="childList"><a href="https://bj.lianjia.com/wenda/" >问答</a><a href="https://news.lianjia.com/bj/baike/" >百科</a></div></li><li  class=""><a href="https://bj.lianjia.com/fangjia/" >房价</a></li><li  class=""><a href="https://bj.lianjia.com/tool.html" target="_blank">工具</a></li><li  class=""><a href="https://news.lianjia.com/bj/jingyan/" >经验</a></li><li  class=""><a href="https://bj.lianjia.com/yezhu/" target="_blank">发布房源</a></li></ul><div class="banner-right"><div class="phone"><span>热线电话1010-9666</span></div><div class="login" id="userInfoContainer"><a href="https://upassport.lianjia.com/login?service=https%3A%2F%2Fwww.lianjia.com%2Fuser%2Fchecklogin%3Fredirect%3Dhttp%253A%252F%252Fbj.lianjia.com%252Fershoufang%252Fc1111027378022%252F" id="loginBtn">登录</a>/<a href="https://passport.lianjia.com/register/resources/lianjia/register.html?service=https%3A%2F%2Fwww.lianjia.com%2Fuser%2Fchecklogin%3Fredirect%3Dhttp%253A%252F%252Fbj.lianjia.com%252Fershoufang%252Fc1111027378022%252F" rel="nofollow">注册</a></div></div></div></div>
+
+
+<script type="text/template" id="userInfoTpl">
+  <%if(isAgent){%>
+    <a id="userNameContainer" href="<%=$.env.fixedUrl('//agent.lianjia.com/')%>"><%=username%></a>
+  <%}else{%>
+    <a id="userNameContainer" href="<%=$.env.fixedUrl('//user.lianjia.com/')%>" rel="nofollow"><%=username%></a>
+  <%}%>
+  <span id="tipContainer"></span>
+  &nbsp;&nbsp;<a href="<%=logoutUrl%>">退出</a>
+  <span id="pushNewsListContainer"></span>
+</script>
+<script type="text/template" id="pushNewsListTpl">
+  <div class="pushNewsList">
+    <%for(var i in group_by_type){%>
+      <%if(group_by_type[i].unread !== 0 && pushMsgMap.hasOwnProperty(i)){%>
+        <a href="<%=pushMsgMap[i].url%>"><%=$.replaceTpl(pushMsgMap[i].text, {unread:group_by_type[i].unread})%></a>
+      <%}%>
+    <%}%>
+  </div>
+</script>
+<div class="header"><div class="menu"><div class="menuLeft"><div class="search"><a href="/ershoufang" class="logo"></a><div class="input" log-mod="search"><form id="searchForm" action='/ershoufang/rs'><input type="text" id="searchInput" value="" autocomplete="off"><div class="inputRightPart"><div class="save" id="savedSearchMsg"><span id="savedSearchCount">0</span>条已保存搜索<span id="savedSearchArrow" class="downArrow"></span></div><button type='submit' class="searchButton" data-bl="search" data-el="search">&nbsp;<i></i>&nbsp;</button></div></form><div class="searchMsg" id="searchMsgContainer"></div></div><ul class="typeList"><li class="selected"><a href="/ershoufang/"  title="北京在售二手房" >在售</a></li><li ><a href="/chengjiao/"  title="北京成交二手房" >成交</a></li><li ><a href="/xiaoqu/"  title="北京小区二手房" >小区</a></li><li ><a href="/fangjia/"  title="北京房价二手房" >房价</a></li><li ><a href="/ditu/"  title="北京地图找房二手房" target="_blank">地图找房</a></li></ul></div></div></div></div>
+
+
+<script type="text/template" id="hotSearchTpl">
+  <div class="searchMsgTitle">
+    <span class="searchMsgName">热门搜索</span>
+  </div>
+  <ul data-bl="sug" data-el="history">
+    <%for(var i =0; i < list.length; i++){%>
+    <li>
+      <a role="addHistory" href="<%=list[i].url%>" data-log_index="<%=i+1%>" data-log_value="<%=list[i].string%>" class="sug--search_item">
+        <span class="msgListTitle" role="historyKey"><%=list[i].string%></span>
+      </a>
+    </li>
+    <%}%>
+  </ul>
+</script>
+<script type="text/template" id="searchHistoryTpl">
+  <div class="searchMsgTitle">
+    <span class="searchMsgName">搜索历史</span>
+    <div class="searchMsgTitleRightPart">
+      <a href="#" id="clearSearchHistory" class="manage">清除历史记录</a>
+    </div>
+  </div>
+  <ul data-bl="sug" data-el="history">
+  <%for(var i = 0; i < list.length; i++){%>
+    <li>
+      <a href="<%=list[i].url%>" role="addHistory" data-log_index="<%=i+1%>" data-log_value="<%=$.encodeHTML(list[i].name)%>" class="sug--search_item">
+        <span class="msgListTitle" role="historyKey"><%=$.encodeHTML(list[i].name)%></span>
+        <%if(list[i].newCount) {%>
+          <span class="msgListAdd"><%=list[i].newCount%>套新增房源</span>
+        <%}%>
+      </a>
+    </li>
+  <%}%>
+  </ul>
+</script>
+<script type="text/template" id="searchSuggestionTpl">
+  <div class="searchMsgTitle">
+    <span class="searchMsgName">你可能在找</span>
+  </div>
+  <ul data-bl="sug" data-el="sug">
+  <%for(var i = 0;i < list.length;i++){%>
+    <li>
+      <a href="<%=list[i].url%>" role="addHistory" data-log_index="<%=i+1%>" data-log_value="<%=list[i].title%>">
+        <span class="msgListTitle">
+          <span role="historyKey"><%=list[i].title%></span>
+          <%if(list[i].region){%>
+            <span class="msgListArea"><%=list[i].region%></span>
+          <%}%>
+        </span>
+        <%if(type === 'sell'){%>
+          <span class="msgListAdd">约<%=list[i].count%>套在售</span>
+        <%}else if(type === 'deal'){%>
+          <span class="msgListAdd">约<%=list[i].count%>套成交</span>
+        <%}%>
+      </a>
+    </li>
+  <%}%>
+  </ul>
+</script>
+<script type="text/template" id="savedSearchTpl">
+  <div class="searchMsgTitle">
+    <span class="searchMsgName">已保存搜索</span>
+    <div class="searchMsgTitleRightPart">
+    <%if(totalCount){%>
+      <a class="totalNew">查看<%=totalCount%>套新增房源</a>
+    <%}%>
+      <a href="<%=userCenterUrl%>" class="manage">管理</a>
+    </div>
+  </div>
+  <ul data-bl="sug" data-el="history">
+    <%for(var i = 0; i < savedData.length; i++){
+      var title = savedData[i].query ? savedData[i].query + '&nbsp;' : '';
+      title = title + savedData[i].title.join('&nbsp;');
+    %>
+      <li>
+        <a href="<%=savedData[i].url%>" role="savedSearch" data-log_index="<%=i+1%>" data-log_value="<%=title%>" class="sug--search_item">
+          <span class="msgListTitle"><%=title%></span>
+          <%if(savedData[i].unread && savedData[i].unread !== 0){%>
+          <span class="msgListAdd">新增<%=savedData[i].unread%>套</span>
+          <%}%>
+        </a>
+      </li>
+    <%}%>
+  </ul>
+</script>
+
+<script>
+  var hotSearchData = {
+    channel:[{"name":"\u4e8c\u624b\u623f","action":"ershoufang","channel":"ershoufang","checked":1,"tipsHot":{"query":[{"string":"\u65b0\u9f99\u57ce","url":"http:\/\/bj.lianjia.com\/ershoufang\/c1111027381003\/"},{"string":"\u5929\u901a\u82d1","url":"http:\/\/bj.lianjia.com\/ershoufang\/tiantongyuan\/"},{"string":"\u5317\u4eac\u65b0\u5929\u5730","url":"http:\/\/bj.lianjia.com\/ershoufang\/c1111027375945\/"},{"string":"\u8fdc\u6d0b\u5c71\u6c34","url":"http:\/\/bj.lianjia.com\/ershoufang\/c1111027382209\/"},{"string":"\u671b\u4eac","url":"http:\/\/bj.lianjia.com\/ershoufang\/wangjing\/"},{"string":"\u5317\u4eac\u50cf\u7d20","url":"http:\/\/bj.lianjia.com\/ershoufang\/sq45\/"},{"string":"\u8349\u623f\u7ad9\u9644\u8fd1\u623f\u6e90","url":"http:\/\/bj.lianjia.com\/ditiefang\/li46107350s46107204\/"},{"string":"13\u53f7\u7ebf\u5730\u94c1","url":"http:\/\/bj.lianjia.com\/ditiefang\/li652\/"}],"tips":"\u8bd5\u8bd5\u8f93\u5165\u5730\u94c1\u7ebf\/\u7ad9\u5728\u5730\u94c1\u9644\u8fd1\u627e\u623f\uff0c\u5982 13\u53f7\u7ebf"}},{"name":"\u5c0f\u533a","action":"xiaoqu","channel":"xiaoqu","checked":0,"tipsHot":{"query":[{"string":"\u5317\u82d1\u5bb6\u56ed\u671b\u6625\u56ed","url":"https:\/\/bj.lianjia.com\/xiaoqu\/1111027376257\/"},{"string":"\u540e\u73b0\u4ee3\u57ce","url":"http:\/\/bj.lianjia.com\/xiaoqu\/1111027375357\/"},{"string":"\u8363\u4e302008","url":"http:\/\/bj.lianjia.com\/xiaoqu\/1111027378998\/"},{"string":"\u5929\u901a\u897f\u82d1\u4e09\u533a ","url":"http:\/\/bj.lianjia.com\/xiaoqu\/1111027380054\/"},{"string":"\u82f9\u679c\u793e\u533a","url":"http:\/\/bj.lianjia.com\/xiaoqu\/1111027378713\/"},{"string":"\u534e\u8d38\u57ce","url":"http:\/\/bj.lianjia.com\/xiaoqu\/1111027375158\/"},{"string":"\u5929\u901a\u82d1\u4e2d\u82d1","url":"http:\/\/bj.lianjia.com\/xiaoqu\/1111027380057\/"},{"string":"\u5317\u4eac\u65b0\u5929\u5730","url":"http:\/\/bj.lianjia.com\/xiaoqu\/1111027375945\/"}],"tips":"\u8bf7\u8f93\u5165\u5c0f\u533a\u540d\u5f00\u59cb\u67e5\u627e\u5c0f\u533a"}},{"name":"\u6210\u4ea4","action":"chengjiao","channel":"chengjiao","checked":0,"tipsHot":null},{"name":"\u65b0\u623f","action":"loupan","channel":"xinfang","checked":0,"tipsHot":{"query":[],"tips":"\u8bf7\u8f93\u5165\u697c\u76d8\u540d\u79f0\u5f00\u59cb\u627e\u623f"}},{"name":"\u79df\u623f","action":"zufang","channel":"zufang","checked":0,"tipsHot":{"query":[{"string":"\u5317\u4eac\u50cf\u7d20","url":"http:\/\/bj.lianjia.com\/zufang\/rs%E5%8C%97%E4%BA%AC%E5%83%8F%E7%B4%A0"},{"string":"\u56de\u9f99\u89c2","url":"http:\/\/bj.lianjia.com\/zufang\/huilongguan2"},{"string":"\u7261\u4e39\u56ed","url":"http:\/\/bj.lianjia.com\/zufang\/mudanyuan"},{"string":"\u6e05\u6cb3","url":"http:\/\/bj.lianjia.com\/zufang\/qinghe11\/"},{"string":"\u5929\u901a\u82d1","url":"http:\/\/bj.lianjia.com\/ditiezufang\/li649s20598\/"},{"string":"\u9752\u5e74\u8def","url":"http:\/\/bj.lianjia.com\/ditiezufang\/li46107350s46107139\/"}],"tips":"\u8bf7\u8f93\u5165\u533a\u57df\u3001\u5546\u5708\u6216\u5c0f\u533a\u540d\u5f00\u59cb\u627e\u623f"}},{"name":"\u7ecf\u7eaa\u4eba","action":"jingjiren","channel":"jingjiren","checked":0,"tipsHot":{"query":[],"tips":"\u8bf7\u8f93\u5165\u5546\u5708\u3001\u5c0f\u533a\u6216\u7ecf\u7eaa\u4eba\u7684\u59d3\u540d\u3001\u7535\u8bdd..."}}],
+    curChannel:'ershoufang'
+  };
+</script>
+<div class="m-filter">
+      <div class="position xiaoqu_position" id="position">
+      <dl>
+          <h2><dt title="北京在售位置">小区</dt></h2>
+                        <dd class="xiaoqu_dd">
+                   <a href="  /ershoufang/ " class="filter_selection  selected " >
+                    <span class="checkbox checked"></span>
+                    <span class="name">六铺炕</span>
+                                          <span class="cnt"> 6</span>
+                                      </a>
+              </dd>
+                </dl>
+    </div>
+  
+  <div class="">
+    <ul class="new_filter_ul" id="new_filter_ul">
+        <li class="new_filter_li">
+          <div class="new_filter_frame">
+              <div class="new_filter_addons">
+                  <h3>按总价<span>(万）</span></h3>
+                  <div class="new_filter_input_group">
+                      <input type="text" id="trans_price_min"/><span class="minus">-</span><input type="text" id="trans_price_max"/>
+                      <a id="trans_price_confirm">确定</a>
+                  </div>
+              </div>
+              <div id="trans_price_filter" class="new_filter" data-data='{"name":"\u552e\u4ef7","options":{"1":{"name":"50\u4e07\u4ee5\u4e0b","key":"p1","lb":0,"url":"\/ershoufang\/p1c1111027378022\/","checked":false,"cnt":0},"2":{"name":"50-100\u4e07","key":"p2","lb":"50","url":"\/ershoufang\/p2c1111027378022\/","checked":false,"cnt":0},"3":{"name":"100-150\u4e07","key":"p3","lb":"100","url":"\/ershoufang\/p3c1111027378022\/","checked":false,"cnt":0},"4":{"name":"150-200\u4e07","key":"p4","lb":"150","url":"\/ershoufang\/p4c1111027378022\/","checked":false,"cnt":0},"5":{"name":"200-250\u4e07","key":"p5","lb":"200","url":"\/ershoufang\/p5c1111027378022\/","checked":false,"cnt":0},"6":{"name":"250-300\u4e07","key":"p6","lb":"250","url":"\/ershoufang\/p6c1111027378022\/","checked":false,"cnt":0},"7":{"name":"300-350\u4e07","key":"p7","lb":"300","url":"\/ershoufang\/p7c1111027378022\/","checked":false,"cnt":0},"8":{"name":"350-400\u4e07","key":"p8","lb":"350","url":"\/ershoufang\/p8c1111027378022\/","checked":false,"cnt":0},"9":{"name":"400-450\u4e07","key":"p9","lb":"400","url":"\/ershoufang\/p9c1111027378022\/","checked":false,"cnt":0},"10":{"name":"450-500\u4e07","key":"p10","lb":"450","url":"\/ershoufang\/p10c1111027378022\/","checked":false,"cnt":0},"11":{"name":"500-550\u4e07","key":"p11","lb":"500","url":"\/ershoufang\/p11c1111027378022\/","checked":false,"cnt":0},"12":{"name":"550-600\u4e07","key":"p12","lb":"550","url":"\/ershoufang\/p12c1111027378022\/","checked":false,"cnt":1},"13":{"name":"600-650\u4e07","key":"p13","lb":"600","url":"\/ershoufang\/p13c1111027378022\/","checked":false,"cnt":3},"14":{"name":"650-700\u4e07","key":"p14","lb":"650","url":"\/ershoufang\/p14c1111027378022\/","checked":false,"cnt":0},"15":{"name":"700-750\u4e07","key":"p15","lb":"700","url":"\/ershoufang\/p15c1111027378022\/","checked":false,"cnt":1},"16":{"name":"750-800\u4e07","key":"p16","lb":"750","url":"\/ershoufang\/p16c1111027378022\/","checked":false,"cnt":0},"17":{"name":"800-850\u4e07","key":"p17","lb":"800","url":"\/ershoufang\/p17c1111027378022\/","checked":false,"cnt":0},"18":{"name":"850-900\u4e07","key":"p18","lb":"850","url":"\/ershoufang\/p18c1111027378022\/","checked":false,"cnt":1},"19":{"name":"900-950\u4e07","key":"p19","lb":"900","url":"\/ershoufang\/p19c1111027378022\/","checked":false,"cnt":0},"20":{"name":"950-1000\u4e07","key":"p20","lb":"950","url":"\/ershoufang\/p20c1111027378022\/","checked":false,"cnt":0},"21":{"name":"1000-1050\u4e07","key":"p21","lb":"1000","url":"\/ershoufang\/p21c1111027378022\/","checked":false,"cnt":0},"22":{"name":"1050-1100\u4e07","key":"p22","lb":"1050","url":"\/ershoufang\/p22c1111027378022\/","checked":false,"cnt":0},"23":{"name":"1100-1150\u4e07","key":"p23","lb":"1100","url":"\/ershoufang\/p23c1111027378022\/","checked":false,"cnt":0},"24":{"name":"1150-1200\u4e07","key":"p24","lb":"1150","url":"\/ershoufang\/p24c1111027378022\/","checked":false,"cnt":0},"25":{"name":"1200-1250\u4e07","key":"p25","lb":"1200","url":"\/ershoufang\/p25c1111027378022\/","checked":false,"cnt":0},"26":{"name":"1250-1300\u4e07","key":"p26","lb":"1250","url":"\/ershoufang\/p26c1111027378022\/","checked":false,"cnt":0},"27":{"name":"1300-1350\u4e07","key":"p27","lb":"1300","url":"\/ershoufang\/p27c1111027378022\/","checked":false,"cnt":0},"28":{"name":"1350-1400\u4e07","key":"p28","lb":"1350","url":"\/ershoufang\/p28c1111027378022\/","checked":false,"cnt":0},"29":{"name":"1400-1450\u4e07","key":"p29","lb":"1400","url":"\/ershoufang\/p29c1111027378022\/","checked":false,"cnt":0},"30":{"name":"1450-1500\u4e07","key":"p30","lb":"1450","url":"\/ershoufang\/p30c1111027378022\/","checked":false,"cnt":0},"31":{"name":"1500-1550\u4e07","key":"p31","lb":"1500","url":"\/ershoufang\/p31c1111027378022\/","checked":false,"cnt":0},"32":{"name":"1550-1600\u4e07","key":"p32","lb":"1550","url":"\/ershoufang\/p32c1111027378022\/","checked":false,"cnt":0},"33":{"name":"1600-1650\u4e07","key":"p33","lb":"1600","url":"\/ershoufang\/p33c1111027378022\/","checked":false,"cnt":0},"34":{"name":"1650-1700\u4e07","key":"p34","lb":"1650","url":"\/ershoufang\/p34c1111027378022\/","checked":false,"cnt":0},"35":{"name":"1700-1750\u4e07","key":"p35","lb":"1700","url":"\/ershoufang\/p35c1111027378022\/","checked":false,"cnt":0},"36":{"name":"1750-1800\u4e07","key":"p36","lb":"1750","url":"\/ershoufang\/p36c1111027378022\/","checked":false,"cnt":0},"37":{"name":"1800-1850\u4e07","key":"p37","lb":"1800","url":"\/ershoufang\/p37c1111027378022\/","checked":false,"cnt":0},"38":{"name":"1850-1900\u4e07","key":"p38","lb":"1850","url":"\/ershoufang\/p38c1111027378022\/","checked":false,"cnt":0},"39":{"name":"1900-1950\u4e07","key":"p39","lb":"1900","url":"\/ershoufang\/p39c1111027378022\/","checked":false,"cnt":0},"40":{"name":"1950-2000\u4e07","key":"p40","lb":"1950","url":"\/ershoufang\/p40c1111027378022\/","checked":false,"cnt":0},"41":{"name":"2000\u4e07\u4ee5\u4e0a","key":"p41","lb":"2000","url":"\/ershoufang\/p41c1111027378022\/","checked":false,"cnt":0}},"varName":"price","minPrice":null,"maxPrice":null,"origin":false}'>
+              </div>
+              <div class="new_filter_desc">
+                  拖动按钮选择房屋售价
+              </div>
+          </div>
+        </li>
+        <li class="new_filter_li">
+          <div class="new_filter_frame">
+              <div class="new_filter_addons">
+                  <h3>按面积<span>(平）</span></h3>
+                  <div class="new_filter_input_group">
+                      <input type="text" id="trans_square_min"/><span class="minus">-</span><input type="text" id="trans_square_max"/>
+                      <a id="trans_square_confirm">确定</a>
+                  </div>
+              </div>
+              <div id="trans_square_filter" class="new_filter" data-data='{"name":"\u9762\u79ef","options":{"1":{"name":"5\u5e73\u4ee5\u4e0b","key":"a1","lb":0,"url":"\/ershoufang\/a1c1111027378022\/","checked":false,"cnt":0},"2":{"name":"5-10\u5e73","key":"a2","lb":"5","url":"\/ershoufang\/a2c1111027378022\/","checked":false,"cnt":0},"3":{"name":"10-15\u5e73","key":"a3","lb":"10","url":"\/ershoufang\/a3c1111027378022\/","checked":false,"cnt":0},"4":{"name":"15-20\u5e73","key":"a4","lb":"15","url":"\/ershoufang\/a4c1111027378022\/","checked":false,"cnt":0},"5":{"name":"20-25\u5e73","key":"a5","lb":"20","url":"\/ershoufang\/a5c1111027378022\/","checked":false,"cnt":0},"6":{"name":"25-30\u5e73","key":"a6","lb":"25","url":"\/ershoufang\/a6c1111027378022\/","checked":false,"cnt":0},"7":{"name":"30-35\u5e73","key":"a7","lb":"30","url":"\/ershoufang\/a7c1111027378022\/","checked":false,"cnt":0},"8":{"name":"35-40\u5e73","key":"a8","lb":"35","url":"\/ershoufang\/a8c1111027378022\/","checked":false,"cnt":0},"9":{"name":"40-45\u5e73","key":"a9","lb":"40","url":"\/ershoufang\/a9c1111027378022\/","checked":false,"cnt":0},"10":{"name":"45-50\u5e73","key":"a10","lb":"45","url":"\/ershoufang\/a10c1111027378022\/","checked":false,"cnt":0},"11":{"name":"50-55\u5e73","key":"a11","lb":"50","url":"\/ershoufang\/a11c1111027378022\/","checked":false,"cnt":2},"12":{"name":"55-60\u5e73","key":"a12","lb":"55","url":"\/ershoufang\/a12c1111027378022\/","checked":false,"cnt":2},"13":{"name":"60-65\u5e73","key":"a13","lb":"60","url":"\/ershoufang\/a13c1111027378022\/","checked":false,"cnt":1},"14":{"name":"65-70\u5e73","key":"a14","lb":"65","url":"\/ershoufang\/a14c1111027378022\/","checked":false,"cnt":0},"15":{"name":"70-75\u5e73","key":"a15","lb":"70","url":"\/ershoufang\/a15c1111027378022\/","checked":false,"cnt":0},"16":{"name":"75-80\u5e73","key":"a16","lb":"75","url":"\/ershoufang\/a16c1111027378022\/","checked":false,"cnt":1},"17":{"name":"80-85\u5e73","key":"a17","lb":"80","url":"\/ershoufang\/a17c1111027378022\/","checked":false,"cnt":0},"18":{"name":"85-90\u5e73","key":"a18","lb":"85","url":"\/ershoufang\/a18c1111027378022\/","checked":false,"cnt":0},"19":{"name":"90-95\u5e73","key":"a19","lb":"90","url":"\/ershoufang\/a19c1111027378022\/","checked":false,"cnt":0},"20":{"name":"95-100\u5e73","key":"a20","lb":"95","url":"\/ershoufang\/a20c1111027378022\/","checked":false,"cnt":0},"21":{"name":"100-105\u5e73","key":"a21","lb":"100","url":"\/ershoufang\/a21c1111027378022\/","checked":false,"cnt":0},"22":{"name":"105-110\u5e73","key":"a22","lb":"105","url":"\/ershoufang\/a22c1111027378022\/","checked":false,"cnt":0},"23":{"name":"110-115\u5e73","key":"a23","lb":"110","url":"\/ershoufang\/a23c1111027378022\/","checked":false,"cnt":0},"24":{"name":"115-120\u5e73","key":"a24","lb":"115","url":"\/ershoufang\/a24c1111027378022\/","checked":false,"cnt":0},"25":{"name":"120-125\u5e73","key":"a25","lb":"120","url":"\/ershoufang\/a25c1111027378022\/","checked":false,"cnt":0},"26":{"name":"125-130\u5e73","key":"a26","lb":"125","url":"\/ershoufang\/a26c1111027378022\/","checked":false,"cnt":0},"27":{"name":"130-135\u5e73","key":"a27","lb":"130","url":"\/ershoufang\/a27c1111027378022\/","checked":false,"cnt":0},"28":{"name":"135-140\u5e73","key":"a28","lb":"135","url":"\/ershoufang\/a28c1111027378022\/","checked":false,"cnt":0},"29":{"name":"140-145\u5e73","key":"a29","lb":"140","url":"\/ershoufang\/a29c1111027378022\/","checked":false,"cnt":0},"30":{"name":"145-150\u5e73","key":"a30","lb":"145","url":"\/ershoufang\/a30c1111027378022\/","checked":false,"cnt":0},"31":{"name":"150-155\u5e73","key":"a31","lb":"150","url":"\/ershoufang\/a31c1111027378022\/","checked":false,"cnt":0},"32":{"name":"155-160\u5e73","key":"a32","lb":"155","url":"\/ershoufang\/a32c1111027378022\/","checked":false,"cnt":0},"33":{"name":"160-165\u5e73","key":"a33","lb":"160","url":"\/ershoufang\/a33c1111027378022\/","checked":false,"cnt":0},"34":{"name":"165-170\u5e73","key":"a34","lb":"165","url":"\/ershoufang\/a34c1111027378022\/","checked":false,"cnt":0},"35":{"name":"170-175\u5e73","key":"a35","lb":"170","url":"\/ershoufang\/a35c1111027378022\/","checked":false,"cnt":0},"36":{"name":"175-180\u5e73","key":"a36","lb":"175","url":"\/ershoufang\/a36c1111027378022\/","checked":false,"cnt":0},"37":{"name":"180-185\u5e73","key":"a37","lb":"180","url":"\/ershoufang\/a37c1111027378022\/","checked":false,"cnt":0},"38":{"name":"185-190\u5e73","key":"a38","lb":"185","url":"\/ershoufang\/a38c1111027378022\/","checked":false,"cnt":0},"39":{"name":"190-195\u5e73","key":"a39","lb":"190","url":"\/ershoufang\/a39c1111027378022\/","checked":false,"cnt":0},"40":{"name":"195-200\u5e73","key":"a40","lb":"195","url":"\/ershoufang\/a40c1111027378022\/","checked":false,"cnt":0},"41":{"name":"200\u5e73\u4ee5\u4e0a","key":"a41","lb":"200","url":"\/ershoufang\/a41c1111027378022\/","checked":false,"cnt":0}},"varName":"area","minArea":null,"maxArea":null,"origin":false}'>
+              </div>
+              <div class="new_filter_desc">
+                  拖动按钮选择房屋面积
+              </div>
+          </div>
+        </li>
+        <li class="new_filter_li">
+          <div class="new_filter_frame new_filter_type_frame">
+              <div class="new_filter_addons">
+                  <h3>按房型</h3>
+                  <div class="new_filter_input_group new_filter_input_desc">
+                      已选择: <span id="trans_frame"></span>
+                  </div>
+              </div>
+              <div id="trans_frame_filter" class="new_filter" data-data='{"name":"\u623f\u578b","options":{"1":{"name":"\u4e00\u5ba4","url":"\/ershoufang\/l1c1111027378022\/","key":"l1","checked":false,"cnt":0},"2":{"name":"\u4e8c\u5ba4","url":"\/ershoufang\/l2c1111027378022\/","key":"l2","checked":false,"cnt":5},"3":{"name":"\u4e09\u5ba4","url":"\/ershoufang\/l3c1111027378022\/","key":"l3","checked":false,"cnt":1},"4":{"name":"\u56db\u5ba4","url":"\/ershoufang\/l4c1111027378022\/","key":"l4","checked":false,"cnt":0},"5":{"name":"\u4e94\u5ba4\u53ca\u4ee5\u4e0a","url":"\/ershoufang\/l5c1111027378022\/","key":"l5","checked":false,"cnt":0}}}'>
+              </div>
+              <div class="new_filter_desc">
+                  <ul class="new_filter_checkbox_group" id="new_filter_checkbox_group">
+                                                <li class=" disabled" data-name="一室" data-key="l1">
+                              <span class="checkbox"></span>
+                              <span class="name">一室</span>
+                          </li>
+                                                <li class=" " data-name="二室" data-key="l2">
+                              <span class="checkbox"></span>
+                              <span class="name">二室</span>
+                          </li>
+                                                <li class=" " data-name="三室" data-key="l3">
+                              <span class="checkbox"></span>
+                              <span class="name">三室</span>
+                          </li>
+                                                <li class=" disabled" data-name="四室" data-key="l4">
+                              <span class="checkbox"></span>
+                              <span class="name">四室</span>
+                          </li>
+                                                <li class=" disabled" data-name="五室及以上" data-key="l5">
+                              <span class="checkbox"></span>
+                              <span class="name">五室及以上</span>
+                          </li>
+                                        </ul>
+              </div>
+          </div>
+        </li>
+    </ul>
+    </div>
+  
+        <ul class="list_more_ul" id="list_more_ul">
+                                                                                                                            <li class="list_more_li" title="北京用途在售二手房" data-filter_type="用途">
+                   <div class="list_more_main"><span class="filter_type">用途</span><span class="arrow"></span></div>
+                   <ul class="list_more_sub_ul " >
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="sf1"></span>
+                            <span class="name">普通住宅</span>
+                                                          <span class="cnt"> 6</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="sf2"></span>
+                            <span class="name">商业类</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="sf3"></span>
+                            <span class="name">别墅</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="sf4"></span>
+                            <span class="name">四合院</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="sf5"></span>
+                            <span class="name">其他</span>
+                                                      </a>
+                        </li>
+                                                              <li class="selections_group">
+                          <a class="actCancel">取消</a>
+                          <a class="green actCfm">确定</a>
+                      </li>
+                                       </ul>
+              </li>
+                                                <li class="list_more_li" title="北京权属在售二手房" data-filter_type="权属">
+                   <div class="list_more_main"><span class="filter_type">权属</span><span class="arrow"></span></div>
+                   <ul class="list_more_sub_ul " >
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="dp1"></span>
+                            <span class="name">商品房</span>
+                                                          <span class="cnt"> 5</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="dp2"></span>
+                            <span class="name">公房</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="dp3"></span>
+                            <span class="name">经适房</span>
+                                                      </a>
+                        </li>
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="dp4"></span>
+                            <span class="name">其他</span>
+                                                          <span class="cnt"> 1</span>
+                                                      </a>
+                        </li>
+                                                              <li class="selections_group">
+                          <a class="actCancel">取消</a>
+                          <a class="green actCfm">确定</a>
+                      </li>
+                                       </ul>
+              </li>
+                                                <li class="list_more_li" title="北京楼层在售二手房" data-filter_type="楼层">
+                   <div class="list_more_main"><span class="filter_type">楼层</span><span class="arrow"></span></div>
+                   <ul class="list_more_sub_ul " >
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="lc4"></span>
+                            <span class="name">底层</span>
+                                                          <span class="cnt"> 2</span>
+                                                      </a>
+                        </li>
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="lc1"></span>
+                            <span class="name">低楼层</span>
+                                                          <span class="cnt"> 1</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="lc2"></span>
+                            <span class="name">中楼层</span>
+                                                      </a>
+                        </li>
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="lc3"></span>
+                            <span class="name">高楼层</span>
+                                                          <span class="cnt"> 3</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="lc5"></span>
+                            <span class="name">顶层</span>
+                                                      </a>
+                        </li>
+                                                              <li class="selections_group">
+                          <a class="actCancel">取消</a>
+                          <a class="green actCfm">确定</a>
+                      </li>
+                                       </ul>
+              </li>
+                                                <li class="list_more_li" title="北京朝向在售二手房" data-filter_type="朝向">
+                   <div class="list_more_main"><span class="filter_type">朝向</span><span class="arrow"></span></div>
+                   <ul class="list_more_sub_ul " >
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="f1"></span>
+                            <span class="name">朝东</span>
+                                                          <span class="cnt"> 4</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="f2"></span>
+                            <span class="name">朝南</span>
+                                                      </a>
+                        </li>
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="f3"></span>
+                            <span class="name">朝西</span>
+                                                          <span class="cnt"> 4</span>
+                                                      </a>
+                        </li>
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="f4"></span>
+                            <span class="name">朝北</span>
+                                                          <span class="cnt"> 2</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="f5"></span>
+                            <span class="name">南北</span>
+                                                      </a>
+                        </li>
+                                                              <li class="selections_group">
+                          <a class="actCancel">取消</a>
+                          <a class="green actCfm">确定</a>
+                      </li>
+                                       </ul>
+              </li>
+                                                <li class="list_more_li" title="北京楼龄在售二手房" data-filter_type="楼龄">
+                   <div class="list_more_main"><span class="filter_type">楼龄</span><span class="arrow"></span></div>
+                   <ul class="list_more_sub_ul   year_ul " >
+                                                                                                                                                                                                <li>
+                          <a href="  javascript:; " class="filter_selection  disabled   "  >
+                            <span  style="display:none"  class="checkbox " data-key="y1"></span>
+                            <span class="name">5年以内</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href="  javascript:; " class="filter_selection  disabled   "  >
+                            <span  style="display:none"  class="checkbox " data-key="y2"></span>
+                            <span class="name">10年以内</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href="  javascript:; " class="filter_selection  disabled   "  >
+                            <span  style="display:none"  class="checkbox " data-key="y3"></span>
+                            <span class="name">15年以内</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href="  javascript:; " class="filter_selection  disabled   "  >
+                            <span  style="display:none"  class="checkbox " data-key="y4"></span>
+                            <span class="name">20年以内</span>
+                                                      </a>
+                        </li>
+                                                                                                                    <li>
+                          <a href="  /ershoufang/y5c1111027378022/ " class="filter_selection   "  >
+                            <span  style="display:none"  class="checkbox " data-key="y5"></span>
+                            <span class="name">20年以上</span>
+                                                          <span class="cnt"> 6</span>
+                                                      </a>
+                        </li>
+                                                           </ul>
+              </li>
+                                                <li class="list_more_li" title="北京类型在售二手房" data-filter_type="类型">
+                   <div class="list_more_main"><span class="filter_type">类型</span><span class="arrow"></span></div>
+                   <ul class="list_more_sub_ul " >
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="bt1"></span>
+                            <span class="name">塔楼</span>
+                                                          <span class="cnt"> 4</span>
+                                                      </a>
+                        </li>
+                                                                                                                    <li>
+                          <a href=" javascript:; " class="filter_selection   "  >
+                            <span  class="checkbox " data-key="bt2"></span>
+                            <span class="name">板楼</span>
+                                                          <span class="cnt"> 2</span>
+                                                      </a>
+                        </li>
+                                                                                                                                                                                                <li>
+                          <a href=" javascript:; " class="filter_selection  disabled   "  >
+                            <span  class="checkbox " data-key="bt3"></span>
+                            <span class="name">板塔结合</span>
+                                                      </a>
+                        </li>
+                                                              <li class="selections_group">
+                          <a class="actCancel">取消</a>
+                          <a class="green actCfm">确定</a>
+                      </li>
+                                       </ul>
+              </li>
+                                                                                                  <li class="list_more_li list_more_more_li" data-filter_type="更多选项" >
+               <div class="list_more_main"><span class="filter_type">更多选项</span><span class="arrow"></span></div>
+                   <ul class="list_more_sub_ul list_more_more_sub_ul">
+                                                                                          <li >
+                            <span class="list_more_more_name">电梯</span>
+                            <ul>
+                                                              <li title="北京有电梯在售二手房">
+                                  <a href="javascript:;" class="filter_selection   "  >
+                                    <span class="checkbox " data-key="ie2"></span>
+                                    <span class="name">有电梯</span>
+                                                                          <span class="cnt"> 3</span>
+                                                                      </a>
+                                </li>
+                                                              <li title="北京无电梯在售二手房">
+                                  <a href="javascript:;" class="filter_selection   "  >
+                                    <span class="checkbox " data-key="ie1"></span>
+                                    <span class="name">无电梯</span>
+                                                                          <span class="cnt"> 2</span>
+                                                                      </a>
+                                </li>
+                                                          </ul>
+                          </li>
+                                                                                             <li >
+                            <span class="list_more_more_name">装修</span>
+                            <ul>
+                                                              <li title="北京精装修在售二手房">
+                                  <a href="javascript:;" class="filter_selection   "  >
+                                    <span class="checkbox " data-key="de1"></span>
+                                    <span class="name">精装修</span>
+                                                                          <span class="cnt"> 4</span>
+                                                                      </a>
+                                </li>
+                                                              <li title="北京普通装修在售二手房">
+                                  <a href="javascript:;" class="filter_selection   "  >
+                                    <span class="checkbox " data-key="de2"></span>
+                                    <span class="name">普通装修</span>
+                                                                          <span class="cnt"> 1</span>
+                                                                      </a>
+                                </li>
+                                                              <li title="北京毛坯房在售二手房">
+                                  <a href="javascript:;" class="filter_selection  disabled   "  >
+                                    <span class="checkbox " data-key="de3"></span>
+                                    <span class="name">毛坯房</span>
+                                                                      </a>
+                                </li>
+                                                          </ul>
+                          </li>
+                                                                                             <li >
+                            <span class="list_more_more_name">供暖</span>
+                            <ul>
+                                                              <li title="北京集体供暖在售二手房">
+                                  <a href="javascript:;" class="filter_selection   "  >
+                                    <span class="checkbox " data-key="hy1"></span>
+                                    <span class="name">集体供暖</span>
+                                                                          <span class="cnt"> 6</span>
+                                                                      </a>
+                                </li>
+                                                              <li title="北京自供暖在售二手房">
+                                  <a href="javascript:;" class="filter_selection  disabled   "  >
+                                    <span class="checkbox " data-key="hy2"></span>
+                                    <span class="name">自供暖</span>
+                                                                      </a>
+                                </li>
+                                                          </ul>
+                          </li>
+                                                                 <li class="selections_group">
+                          <a class="green actCfm">确定</a>
+                          <a class="actCancel">取消</a>
+                      </li>
+                   </ul>
+              </li>
+      </ul>
+  </div>
+
+<input type="hidden" id="filter_data" data-data='{"c":{"name":"\u5c0f\u533a","options":[{"name":"\u516d\u94fa\u7095","url":"\/ershoufang\/","checked":true,"id":1111027378022,"cnt":6}]},"p":{"name":"\u552e\u4ef7","options":{"1":{"name":"50\u4e07\u4ee5\u4e0b","key":"p1","lb":0,"url":"\/ershoufang\/p1c1111027378022\/","checked":false,"cnt":0},"2":{"name":"50-100\u4e07","key":"p2","lb":"50","url":"\/ershoufang\/p2c1111027378022\/","checked":false,"cnt":0},"3":{"name":"100-150\u4e07","key":"p3","lb":"100","url":"\/ershoufang\/p3c1111027378022\/","checked":false,"cnt":0},"4":{"name":"150-200\u4e07","key":"p4","lb":"150","url":"\/ershoufang\/p4c1111027378022\/","checked":false,"cnt":0},"5":{"name":"200-250\u4e07","key":"p5","lb":"200","url":"\/ershoufang\/p5c1111027378022\/","checked":false,"cnt":0},"6":{"name":"250-300\u4e07","key":"p6","lb":"250","url":"\/ershoufang\/p6c1111027378022\/","checked":false,"cnt":0},"7":{"name":"300-350\u4e07","key":"p7","lb":"300","url":"\/ershoufang\/p7c1111027378022\/","checked":false,"cnt":0},"8":{"name":"350-400\u4e07","key":"p8","lb":"350","url":"\/ershoufang\/p8c1111027378022\/","checked":false,"cnt":0},"9":{"name":"400-450\u4e07","key":"p9","lb":"400","url":"\/ershoufang\/p9c1111027378022\/","checked":false,"cnt":0},"10":{"name":"450-500\u4e07","key":"p10","lb":"450","url":"\/ershoufang\/p10c1111027378022\/","checked":false,"cnt":0},"11":{"name":"500-550\u4e07","key":"p11","lb":"500","url":"\/ershoufang\/p11c1111027378022\/","checked":false,"cnt":0},"12":{"name":"550-600\u4e07","key":"p12","lb":"550","url":"\/ershoufang\/p12c1111027378022\/","checked":false,"cnt":1},"13":{"name":"600-650\u4e07","key":"p13","lb":"600","url":"\/ershoufang\/p13c1111027378022\/","checked":false,"cnt":3},"14":{"name":"650-700\u4e07","key":"p14","lb":"650","url":"\/ershoufang\/p14c1111027378022\/","checked":false,"cnt":0},"15":{"name":"700-750\u4e07","key":"p15","lb":"700","url":"\/ershoufang\/p15c1111027378022\/","checked":false,"cnt":1},"16":{"name":"750-800\u4e07","key":"p16","lb":"750","url":"\/ershoufang\/p16c1111027378022\/","checked":false,"cnt":0},"17":{"name":"800-850\u4e07","key":"p17","lb":"800","url":"\/ershoufang\/p17c1111027378022\/","checked":false,"cnt":0},"18":{"name":"850-900\u4e07","key":"p18","lb":"850","url":"\/ershoufang\/p18c1111027378022\/","checked":false,"cnt":1},"19":{"name":"900-950\u4e07","key":"p19","lb":"900","url":"\/ershoufang\/p19c1111027378022\/","checked":false,"cnt":0},"20":{"name":"950-1000\u4e07","key":"p20","lb":"950","url":"\/ershoufang\/p20c1111027378022\/","checked":false,"cnt":0},"21":{"name":"1000-1050\u4e07","key":"p21","lb":"1000","url":"\/ershoufang\/p21c1111027378022\/","checked":false,"cnt":0},"22":{"name":"1050-1100\u4e07","key":"p22","lb":"1050","url":"\/ershoufang\/p22c1111027378022\/","checked":false,"cnt":0},"23":{"name":"1100-1150\u4e07","key":"p23","lb":"1100","url":"\/ershoufang\/p23c1111027378022\/","checked":false,"cnt":0},"24":{"name":"1150-1200\u4e07","key":"p24","lb":"1150","url":"\/ershoufang\/p24c1111027378022\/","checked":false,"cnt":0},"25":{"name":"1200-1250\u4e07","key":"p25","lb":"1200","url":"\/ershoufang\/p25c1111027378022\/","checked":false,"cnt":0},"26":{"name":"1250-1300\u4e07","key":"p26","lb":"1250","url":"\/ershoufang\/p26c1111027378022\/","checked":false,"cnt":0},"27":{"name":"1300-1350\u4e07","key":"p27","lb":"1300","url":"\/ershoufang\/p27c1111027378022\/","checked":false,"cnt":0},"28":{"name":"1350-1400\u4e07","key":"p28","lb":"1350","url":"\/ershoufang\/p28c1111027378022\/","checked":false,"cnt":0},"29":{"name":"1400-1450\u4e07","key":"p29","lb":"1400","url":"\/ershoufang\/p29c1111027378022\/","checked":false,"cnt":0},"30":{"name":"1450-1500\u4e07","key":"p30","lb":"1450","url":"\/ershoufang\/p30c1111027378022\/","checked":false,"cnt":0},"31":{"name":"1500-1550\u4e07","key":"p31","lb":"1500","url":"\/ershoufang\/p31c1111027378022\/","checked":false,"cnt":0},"32":{"name":"1550-1600\u4e07","key":"p32","lb":"1550","url":"\/ershoufang\/p32c1111027378022\/","checked":false,"cnt":0},"33":{"name":"1600-1650\u4e07","key":"p33","lb":"1600","url":"\/ershoufang\/p33c1111027378022\/","checked":false,"cnt":0},"34":{"name":"1650-1700\u4e07","key":"p34","lb":"1650","url":"\/ershoufang\/p34c1111027378022\/","checked":false,"cnt":0},"35":{"name":"1700-1750\u4e07","key":"p35","lb":"1700","url":"\/ershoufang\/p35c1111027378022\/","checked":false,"cnt":0},"36":{"name":"1750-1800\u4e07","key":"p36","lb":"1750","url":"\/ershoufang\/p36c1111027378022\/","checked":false,"cnt":0},"37":{"name":"1800-1850\u4e07","key":"p37","lb":"1800","url":"\/ershoufang\/p37c1111027378022\/","checked":false,"cnt":0},"38":{"name":"1850-1900\u4e07","key":"p38","lb":"1850","url":"\/ershoufang\/p38c1111027378022\/","checked":false,"cnt":0},"39":{"name":"1900-1950\u4e07","key":"p39","lb":"1900","url":"\/ershoufang\/p39c1111027378022\/","checked":false,"cnt":0},"40":{"name":"1950-2000\u4e07","key":"p40","lb":"1950","url":"\/ershoufang\/p40c1111027378022\/","checked":false,"cnt":0},"41":{"name":"2000\u4e07\u4ee5\u4e0a","key":"p41","lb":"2000","url":"\/ershoufang\/p41c1111027378022\/","checked":false,"cnt":0}},"varName":"price","minPrice":null,"maxPrice":null,"origin":false},"a":{"name":"\u9762\u79ef","options":{"1":{"name":"5\u5e73\u4ee5\u4e0b","key":"a1","lb":0,"url":"\/ershoufang\/a1c1111027378022\/","checked":false,"cnt":0},"2":{"name":"5-10\u5e73","key":"a2","lb":"5","url":"\/ershoufang\/a2c1111027378022\/","checked":false,"cnt":0},"3":{"name":"10-15\u5e73","key":"a3","lb":"10","url":"\/ershoufang\/a3c1111027378022\/","checked":false,"cnt":0},"4":{"name":"15-20\u5e73","key":"a4","lb":"15","url":"\/ershoufang\/a4c1111027378022\/","checked":false,"cnt":0},"5":{"name":"20-25\u5e73","key":"a5","lb":"20","url":"\/ershoufang\/a5c1111027378022\/","checked":false,"cnt":0},"6":{"name":"25-30\u5e73","key":"a6","lb":"25","url":"\/ershoufang\/a6c1111027378022\/","checked":false,"cnt":0},"7":{"name":"30-35\u5e73","key":"a7","lb":"30","url":"\/ershoufang\/a7c1111027378022\/","checked":false,"cnt":0},"8":{"name":"35-40\u5e73","key":"a8","lb":"35","url":"\/ershoufang\/a8c1111027378022\/","checked":false,"cnt":0},"9":{"name":"40-45\u5e73","key":"a9","lb":"40","url":"\/ershoufang\/a9c1111027378022\/","checked":false,"cnt":0},"10":{"name":"45-50\u5e73","key":"a10","lb":"45","url":"\/ershoufang\/a10c1111027378022\/","checked":false,"cnt":0},"11":{"name":"50-55\u5e73","key":"a11","lb":"50","url":"\/ershoufang\/a11c1111027378022\/","checked":false,"cnt":2},"12":{"name":"55-60\u5e73","key":"a12","lb":"55","url":"\/ershoufang\/a12c1111027378022\/","checked":false,"cnt":2},"13":{"name":"60-65\u5e73","key":"a13","lb":"60","url":"\/ershoufang\/a13c1111027378022\/","checked":false,"cnt":1},"14":{"name":"65-70\u5e73","key":"a14","lb":"65","url":"\/ershoufang\/a14c1111027378022\/","checked":false,"cnt":0},"15":{"name":"70-75\u5e73","key":"a15","lb":"70","url":"\/ershoufang\/a15c1111027378022\/","checked":false,"cnt":0},"16":{"name":"75-80\u5e73","key":"a16","lb":"75","url":"\/ershoufang\/a16c1111027378022\/","checked":false,"cnt":1},"17":{"name":"80-85\u5e73","key":"a17","lb":"80","url":"\/ershoufang\/a17c1111027378022\/","checked":false,"cnt":0},"18":{"name":"85-90\u5e73","key":"a18","lb":"85","url":"\/ershoufang\/a18c1111027378022\/","checked":false,"cnt":0},"19":{"name":"90-95\u5e73","key":"a19","lb":"90","url":"\/ershoufang\/a19c1111027378022\/","checked":false,"cnt":0},"20":{"name":"95-100\u5e73","key":"a20","lb":"95","url":"\/ershoufang\/a20c1111027378022\/","checked":false,"cnt":0},"21":{"name":"100-105\u5e73","key":"a21","lb":"100","url":"\/ershoufang\/a21c1111027378022\/","checked":false,"cnt":0},"22":{"name":"105-110\u5e73","key":"a22","lb":"105","url":"\/ershoufang\/a22c1111027378022\/","checked":false,"cnt":0},"23":{"name":"110-115\u5e73","key":"a23","lb":"110","url":"\/ershoufang\/a23c1111027378022\/","checked":false,"cnt":0},"24":{"name":"115-120\u5e73","key":"a24","lb":"115","url":"\/ershoufang\/a24c1111027378022\/","checked":false,"cnt":0},"25":{"name":"120-125\u5e73","key":"a25","lb":"120","url":"\/ershoufang\/a25c1111027378022\/","checked":false,"cnt":0},"26":{"name":"125-130\u5e73","key":"a26","lb":"125","url":"\/ershoufang\/a26c1111027378022\/","checked":false,"cnt":0},"27":{"name":"130-135\u5e73","key":"a27","lb":"130","url":"\/ershoufang\/a27c1111027378022\/","checked":false,"cnt":0},"28":{"name":"135-140\u5e73","key":"a28","lb":"135","url":"\/ershoufang\/a28c1111027378022\/","checked":false,"cnt":0},"29":{"name":"140-145\u5e73","key":"a29","lb":"140","url":"\/ershoufang\/a29c1111027378022\/","checked":false,"cnt":0},"30":{"name":"145-150\u5e73","key":"a30","lb":"145","url":"\/ershoufang\/a30c1111027378022\/","checked":false,"cnt":0},"31":{"name":"150-155\u5e73","key":"a31","lb":"150","url":"\/ershoufang\/a31c1111027378022\/","checked":false,"cnt":0},"32":{"name":"155-160\u5e73","key":"a32","lb":"155","url":"\/ershoufang\/a32c1111027378022\/","checked":false,"cnt":0},"33":{"name":"160-165\u5e73","key":"a33","lb":"160","url":"\/ershoufang\/a33c1111027378022\/","checked":false,"cnt":0},"34":{"name":"165-170\u5e73","key":"a34","lb":"165","url":"\/ershoufang\/a34c1111027378022\/","checked":false,"cnt":0},"35":{"name":"170-175\u5e73","key":"a35","lb":"170","url":"\/ershoufang\/a35c1111027378022\/","checked":false,"cnt":0},"36":{"name":"175-180\u5e73","key":"a36","lb":"175","url":"\/ershoufang\/a36c1111027378022\/","checked":false,"cnt":0},"37":{"name":"180-185\u5e73","key":"a37","lb":"180","url":"\/ershoufang\/a37c1111027378022\/","checked":false,"cnt":0},"38":{"name":"185-190\u5e73","key":"a38","lb":"185","url":"\/ershoufang\/a38c1111027378022\/","checked":false,"cnt":0},"39":{"name":"190-195\u5e73","key":"a39","lb":"190","url":"\/ershoufang\/a39c1111027378022\/","checked":false,"cnt":0},"40":{"name":"195-200\u5e73","key":"a40","lb":"195","url":"\/ershoufang\/a40c1111027378022\/","checked":false,"cnt":0},"41":{"name":"200\u5e73\u4ee5\u4e0a","key":"a41","lb":"200","url":"\/ershoufang\/a41c1111027378022\/","checked":false,"cnt":0}},"varName":"area","minArea":null,"maxArea":null,"origin":false},"l":{"name":"\u623f\u578b","options":{"1":{"name":"\u4e00\u5ba4","url":"\/ershoufang\/l1c1111027378022\/","key":"l1","checked":false,"cnt":0},"2":{"name":"\u4e8c\u5ba4","url":"\/ershoufang\/l2c1111027378022\/","key":"l2","checked":false,"cnt":5},"3":{"name":"\u4e09\u5ba4","url":"\/ershoufang\/l3c1111027378022\/","key":"l3","checked":false,"cnt":1},"4":{"name":"\u56db\u5ba4","url":"\/ershoufang\/l4c1111027378022\/","key":"l4","checked":false,"cnt":0},"5":{"name":"\u4e94\u5ba4\u53ca\u4ee5\u4e0a","url":"\/ershoufang\/l5c1111027378022\/","key":"l5","checked":false,"cnt":0}}},"sf":{"name":"\u7528\u9014","options":[{"name":"\u666e\u901a\u4f4f\u5b85","url":"\/ershoufang\/sf1c1111027378022\/","key":"sf1","checked":false,"cnt":6},{"name":"\u5546\u4e1a\u7c7b","url":"\/ershoufang\/sf2c1111027378022\/","key":"sf2","checked":false,"cnt":0},{"name":"\u522b\u5885","url":"\/ershoufang\/sf3c1111027378022\/","key":"sf3","checked":false,"cnt":0},{"name":"\u56db\u5408\u9662","url":"\/ershoufang\/sf4c1111027378022\/","key":"sf4","checked":false,"cnt":0},{"name":"\u5176\u4ed6","url":"\/ershoufang\/sf5c1111027378022\/","key":"sf5","checked":false,"cnt":0}]},"dp":{"name":"\u6743\u5c5e","options":[{"name":"\u5546\u54c1\u623f","url":"\/ershoufang\/dp1c1111027378022\/","key":"dp1","checked":false,"cnt":5},{"name":"\u516c\u623f","url":"\/ershoufang\/dp2c1111027378022\/","key":"dp2","checked":false,"cnt":0},{"name":"\u7ecf\u9002\u623f","url":"\/ershoufang\/dp3c1111027378022\/","key":"dp3","checked":false,"cnt":0},{"name":"\u5176\u4ed6","url":"\/ershoufang\/dp4c1111027378022\/","key":"dp4","checked":false,"cnt":1}]},"lc":{"name":"\u697c\u5c42","options":[{"name":"\u5e95\u5c42","url":"\/ershoufang\/lc4c1111027378022\/","key":"lc4","checked":false,"cnt":2},{"name":"\u4f4e\u697c\u5c42","url":"\/ershoufang\/lc1c1111027378022\/","key":"lc1","checked":false,"cnt":1},{"name":"\u4e2d\u697c\u5c42","url":"\/ershoufang\/lc2c1111027378022\/","key":"lc2","checked":false,"cnt":0},{"name":"\u9ad8\u697c\u5c42","url":"\/ershoufang\/lc3c1111027378022\/","key":"lc3","checked":false,"cnt":3},{"name":"\u9876\u5c42","url":"\/ershoufang\/lc5c1111027378022\/","key":"lc5","checked":false,"cnt":0}]},"f":{"name":"\u671d\u5411","options":[{"name":"\u671d\u4e1c","url":"\/ershoufang\/f1c1111027378022\/","key":"f1","checked":false,"cnt":4},{"name":"\u671d\u5357","url":"\/ershoufang\/f2c1111027378022\/","key":"f2","checked":false,"cnt":0},{"name":"\u671d\u897f","url":"\/ershoufang\/f3c1111027378022\/","key":"f3","checked":false,"cnt":4},{"name":"\u671d\u5317","url":"\/ershoufang\/f4c1111027378022\/","key":"f4","checked":false,"cnt":2},{"name":"\u5357\u5317","url":"\/ershoufang\/f5c1111027378022\/","key":"f5","checked":false,"cnt":0}]},"y":{"name":"\u697c\u9f84","options":[{"name":"5\u5e74\u4ee5\u5185","url":"\/ershoufang\/y1c1111027378022\/","key":"y1","checked":false,"cnt":0},{"name":"10\u5e74\u4ee5\u5185","url":"\/ershoufang\/y2c1111027378022\/","key":"y2","checked":false,"cnt":0},{"name":"15\u5e74\u4ee5\u5185","url":"\/ershoufang\/y3c1111027378022\/","key":"y3","checked":false,"cnt":0},{"name":"20\u5e74\u4ee5\u5185","url":"\/ershoufang\/y4c1111027378022\/","key":"y4","checked":false,"cnt":0},{"name":"20\u5e74\u4ee5\u4e0a","url":"\/ershoufang\/y5c1111027378022\/","key":"y5","checked":false,"cnt":6}]},"bt":{"name":"\u7c7b\u578b","options":[{"name":"\u5854\u697c","url":"\/ershoufang\/bt1c1111027378022\/","key":"bt1","checked":false,"cnt":4},{"name":"\u677f\u697c","url":"\/ershoufang\/bt2c1111027378022\/","key":"bt2","checked":false,"cnt":2},{"name":"\u677f\u5854\u7ed3\u5408","url":"\/ershoufang\/bt3c1111027378022\/","key":"bt3","checked":false,"cnt":0}]},"ie":{"name":"\u7535\u68af","options":[{"name":"\u6709\u7535\u68af","url":"\/ershoufang\/ie2c1111027378022\/","key":"ie2","checked":false,"cnt":3},{"name":"\u65e0\u7535\u68af","url":"\/ershoufang\/ie1c1111027378022\/","key":"ie1","checked":false,"cnt":2}]},"de":{"name":"\u88c5\u4fee","options":[{"name":"\u7cbe\u88c5\u4fee","url":"\/ershoufang\/de1c1111027378022\/","key":"de1","checked":false,"cnt":4},{"name":"\u666e\u901a\u88c5\u4fee","url":"\/ershoufang\/de2c1111027378022\/","key":"de2","checked":false,"cnt":1},{"name":"\u6bdb\u576f\u623f","url":"\/ershoufang\/de3c1111027378022\/","key":"de3","checked":false,"cnt":0}]},"hy":{"name":"\u4f9b\u6696","options":[{"name":"\u96c6\u4f53\u4f9b\u6696","url":"\/ershoufang\/hy1c1111027378022\/","key":"hy1","checked":false,"cnt":6},{"name":"\u81ea\u4f9b\u6696","url":"\/ershoufang\/hy2c1111027378022\/","key":"hy2","checked":false,"cnt":0}]}}'><div class="content "><!-- 左侧内容 --><iframe src class="hidden_iframe" id="transfer_iframe"></iframe><div class="leftContent" id="leftContent"><div class="resultDes clear"><h2 class="total fl">共找到<span> 6 </span>套北京在售二手房源</h2><div class="button fr"><div class="clearBtn hide"><script>with(document)write('<a href="/ershoufang/"><span></span>清空条件</a>');</script></div><div style="display:none" class="saveBtn"><a href="#" id="saveBtn"><span></span>保存搜索</a></div></div></div><div class="orderFilter"><div class="orderTag"><ul><li class='selected'><h3><a href="/ershoufang/c1111027378022/">默认排序</span></a></h3></li><li ><h3><a href="/ershoufang/co32c1111027378022/">最新</span></a></h3></li><li ><h3><a href="/ershoufang/co21c1111027378022/">总价</a></h3></li><li ><h3><a href="/ershoufang/co41c1111027378022/">房屋单价</a></h3></li><li ><h3><a href="/ershoufang/co11c1111027378022/">面积</a></h3></li><li ><h3><a href="/ershoufang/co52c1111027378022/">带看较多</span></a></h3></li></ul></div><div class="filterAgain"><ul><li ><h3><a href="/ershoufang/ty1c1111027378022/"><span class="checkbox"></span>满两年</a></h3></li><li ><h3><a href="/ershoufang/mw1c1111027378022/"><span class="checkbox"></span>满五年</a></h3></li><li ><h3><a href="/ershoufang/fh1c1111027378022/"><span class="checkbox"></span>优选</a></h3></li><li ><h3><a href="/ershoufang/tt2c1111027378022/"><span class="checkbox"></span>新上</a></h3></li><li ><h3><a href="/ershoufang/tt4c1111027378022/"><span class="checkbox"></span>随时看房</a></h3></li><li ><h3><a href="/ershoufang/hu1c1111027378022/"><span class="checkbox"></span>不看商业类</a></h3></li><li ><h3><a href="/ershoufang/nb1c1111027378022/"><span class="checkbox"></span>不看地下室</a></h3></li><li ><h3><a href="/ershoufang/ng1c1111027378022/"><span class="checkbox"></span>不看车位</a></h3></li></ul></div></div><div id="newAddHouseContainer" class="clear"></div><div id="sem_card"></div><script type="text/template" id="sem_card_tpl" semResblockId="1111027378022"><div class="agentCardPush LOGVIEW" log-mod="ershoufang_list_semcard" data-bl="agent" data-el="<%=data.agentUcid%>" data-log_id="20001" data-log_value="<%=data.resblockId%>" data-log_source="<%=data.ljwebSource%>" data-log_statId="<%=data.ljwebStatId%>"><div class="agentCardAgentInfo"><a href="<%=data.agentUrl%>" target="_blank" class="agentCardAgentImg LOGCLICK" data-bl="agent"  data-log_value="<%=data.resblockId%>" data-log_source="<%=data.ljwebSource%>" data-log_statId="<%=data.ljwebStatId%>"><img src="<%=data.photoPath%>.75x100.jpg" alt="小区顾问"></a><div class="cardAgentInfo"><div class="cardAgentNameContainer"><a target="_blank" href="<%=data.agentUrl%>" class="cardAgentName LOGCLICK" data-bl="agent"  data-log_value="<%=data.resblockId%>" data-log_source="<%=data.ljwebSource%>" data-log_statId="<%=data.ljwebStatId%>"><%=data.name%></a><a class="cardAgentIM LOGCLICK" data-bl="agent_im" data-role="lianjiaim-createtalk" data-ucid="<%=data.agentUcid%>"></a><span class="cardAgentTitle">置业顾问</span></div><div class="cardAgentPhone"><%=data.fourPhoneOne%></div><div class="cardAgentDesc"><%=data.desc%></div></div></div><div class="agentCardResblockInfo"><div class="agentCardResblockName"><a class="agentCardResblockTitle LOGCLICK" data-bl="agent_resblock_name"  data-log_value="<%=data.resblockId%>" data-log_source="<%=data.ljwebSource%>" data-log_statId="<%=data.ljwebStatId%>" target="_blank" href="<%=data.resblockUrl%>"><%=data.resblockName%></a><span class="agentCardResblockSubTitle"><%=data.districtName%><%=data.bizcircleName%></span><a href="<%=data.resblockUrl%>" target="_blank" class="agentCardResblockLink LOGCLICK" data-bl="agent_resblock_info"  data-log_value="<%=data.resblockId%>" data-log_source="<%=data.ljwebSource%>" data-log_statId="<%=data.ljwebStatId%>">查看小区详情</a></div><div class="agentCardResblockDetail"><div class="agentCardDetailItem"><div class="agentCardDetailTitle">小区均价</div><a href="<%=data.fangjiaUrl%>" target="_blank" class="agentCardDetailInfo LOGCLICK" data-bl="agent_resblock_avg" data-log_value="<%=data.resblockId%>" data-log_source="<%=data.ljwebSource%>" data-log_statId="<%=data.ljwebStatId%>"><%=data.unitPrice%>元/平米</a></div><div class="agentCardDetailItem"><div class="agentCardDetailTitle">正在出售</div><div class="agentCardDetailInfo"><%=data.sellNum%>套</div></div><div class="agentCardDetailItem"><div class="agentCardDetailTitle">近90天成交</div><a href="<%=data.soldUrl%>" target="_blank" class="agentCardDetailInfo LOGCLICK" data-bl="agent_resblock_sale" data-log_value="<%=data.resblockId%>" data-log_source="<%=data.ljwebSource%>" data-log_statId="<%=data.ljwebStatId%>"><%=data['90saleCount']%>套</a></div><div class="agentCardDetailItem"><div class="agentCardDetailTitle">近30天带看</div><div class="agentCardDetailInfo"><%=data.day30See%>次</div></div></div></div></div></script><div class="loading_frame" id="loading_frame"><i class="loading"></i>房源加载中...</div><ul class="sellListContent" log-mod="list"><li class="clear"><a class="img " href="https://bj.lianjia.com/ershoufang/101101424913.html" target="_blank"data-log_index="1" data-el="ershoufang" data-housecode="101101424913" data-is_focus="1" data-sl=""><div class="focus_tag"></div><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/44d069e0-c1a4-4c80-934b-e9ca50871474.jpg.280x210.jpg.296x216.jpg" alt="六铺炕 满五 两居室 低楼层 随时看房 有车位"></a><div class="info clear"><div class="title"><a class="" href="https://bj.lianjia.com/ershoufang/101101424913.html" target="_blank" data-log_index="1"  data-el="ershoufang" data-housecode="101101424913" data-is_focus="1" data-sl="">六铺炕 满五 两居室 低楼层 随时看房 有车位</a><span class="yezhushuo tagBlock">房主自荐</span></div><div class="address"><div class="houseInfo"><a href="https://bj.lianjia.com/xiaoqu/1111027378022/" target="_blank" data-log_index="1" data-el="region">六铺炕 </a><span class="divide">/</span>2室1厅<span class="divide">/</span>58.28平米<span class="divide">/</span>西北<span class="divide">/</span>精装</div></div><div class="flood"><div class="positionInfo">底层(共16层)<span class="divide">/</span>1992年建塔楼<span class="divide">/</span><a href="https://bj.lianjia.com/ershoufang/andingmen/" target="_blank">安定门</a></div></div><div class="followInfo">152人关注<span class="divide">/</span>83次带看<div class="timeInfo"><span class="timeIcon"></span>10个月以前发布</div><div class="tag"><span class="subway">距离8号线安德里北街站103米</span><span class="taxfree">房本满五年</span><span class="haskey">随时看房</span></div><div class="priceInfo"><div class="totalPrice"><span>595</span>万</div><div class="unitPrice" data-hid="101101424913" data-rid="1111027378022" data-price="102094"><span>单价102094元/平米</span></div></div></div><div class="listButtonContainer"><div class="btn-follow followBtn" data-hid="101101424913"><span class="follow-text">关注</span></div><div class="compareBtn LOGCLICK" data-hid="101101424913" log-mod="101101424913" data-log_evtid="10230">加入对比</div></div></li><li class="clear"><a class="img " href="https://bj.lianjia.com/ershoufang/101102524791.html" target="_blank"data-log_index="2" data-el="ershoufang" data-housecode="101102524791" data-is_focus="" data-sl=""><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/rsp_pic_upload07eda571-e76c-4e46-a0fe-8bcee3723178.jpg.280x210.jpg.296x216.jpg" alt="青年湖六铺炕，中石油家属楼管理好"></a><div class="info clear"><div class="title"><a class="" href="https://bj.lianjia.com/ershoufang/101102524791.html" target="_blank" data-log_index="2"  data-el="ershoufang" data-housecode="101102524791" data-is_focus="" data-sl="">青年湖六铺炕，中石油家属楼管理好</a></div><div class="address"><div class="houseInfo"><a href="https://bj.lianjia.com/xiaoqu/1111027378022/" target="_blank" data-log_index="2" data-el="region">六铺炕 </a><span class="divide">/</span>2室1厅<span class="divide">/</span>57.15平米<span class="divide">/</span>东 西<span class="divide">/</span>精装<span class="divide">/</span>无电梯</div></div><div class="flood"><div class="positionInfo">高楼层(共6层)<span class="divide">/</span>1980年建板楼<span class="divide">/</span><a href="https://bj.lianjia.com/ershoufang/andingmen/" target="_blank">安定门</a></div></div><div class="followInfo">18人关注<span class="divide">/</span>2次带看<div class="timeInfo"><span class="timeIcon"></span>31天以前发布</div><div class="tag"><span class="subway">距离8号线安德里北街站560米</span><span class="taxfree">房本满五年</span></div><div class="priceInfo"><div class="totalPrice"><span>630</span>万</div><div class="unitPrice" data-hid="101102524791" data-rid="1111027378022" data-price="110237"><span>单价110237元/平米</span></div></div></div><div class="listButtonContainer"><div class="btn-follow followBtn" data-hid="101102524791"><span class="follow-text">关注</span></div><div class="compareBtn LOGCLICK" data-hid="101102524791" log-mod="101102524791" data-log_evtid="10230">加入对比</div></div></li><li class="clear"><a class="img " href="https://bj.lianjia.com/ershoufang/101102095865.html" target="_blank"data-log_index="3" data-el="ershoufang" data-housecode="101102095865" data-is_focus="" data-sl=""><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/85ed665b-74ad-47d2-9de9-9d435a7879e9.jpg.280x210.jpg.296x216.jpg" alt="单价低户型好采光足，诚心出售两居室，可以给周期。"></a><div class="info clear"><div class="title"><a class="" href="https://bj.lianjia.com/ershoufang/101102095865.html" target="_blank" data-log_index="3"  data-el="ershoufang" data-housecode="101102095865" data-is_focus="" data-sl="">单价低户型好采光足，诚心出售两居室，可以给周期。</a></div><div class="address"><div class="houseInfo"><a href="https://bj.lianjia.com/xiaoqu/1111027378022/" target="_blank" data-log_index="3" data-el="region">六铺炕 </a><span class="divide">/</span>2室1厅<span class="divide">/</span>54.99平米<span class="divide">/</span>东<span class="divide">/</span>简装<span class="divide">/</span>有电梯</div></div><div class="flood"><div class="positionInfo">高楼层(共16层)<span class="divide">/</span>1992年建塔楼<span class="divide">/</span><a href="https://bj.lianjia.com/ershoufang/andingmen/" target="_blank">安定门</a></div></div><div class="followInfo">36人关注<span class="divide">/</span>95次带看<div class="timeInfo"><span class="timeIcon"></span>5个月以前发布</div><div class="tag"><span class="subway">距离8号线安德里北街站174米</span><span class="haskey">随时看房</span></div><div class="priceInfo"><div class="totalPrice"><span>630</span>万</div><div class="unitPrice" data-hid="101102095865" data-rid="1111027378022" data-price="114567"><span>单价114567元/平米</span></div></div></div><div class="listButtonContainer"><div class="btn-follow followBtn" data-hid="101102095865"><span class="follow-text">关注</span></div><div class="compareBtn LOGCLICK" data-hid="101102095865" log-mod="101102095865" data-log_evtid="10230">加入对比</div></div></li><li class="clear"><a class="img " href="https://bj.lianjia.com/ershoufang/101102498518.html" target="_blank"data-log_index="4" data-el="ershoufang" data-housecode="101102498518" data-is_focus="" data-sl=""><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/rsp_pic_upload62b5d41d-1737-4b89-912a-339fd44dd283.jpg.280x210.jpg.296x216.jpg" alt="东城六铺炕 诚心出售 高楼层 视野好 采光好"></a><div class="info clear"><div class="title"><a class="" href="https://bj.lianjia.com/ershoufang/101102498518.html" target="_blank" data-log_index="4"  data-el="ershoufang" data-housecode="101102498518" data-is_focus="" data-sl="">东城六铺炕 诚心出售 高楼层 视野好 采光好</a></div><div class="address"><div class="houseInfo"><a href="https://bj.lianjia.com/xiaoqu/1111027378022/" target="_blank" data-log_index="4" data-el="region">六铺炕 </a><span class="divide">/</span>2室1厅<span class="divide">/</span>54.99平米<span class="divide">/</span>东<span class="divide">/</span>精装<span class="divide">/</span>有电梯</div></div><div class="flood"><div class="positionInfo">高楼层(共16层)<span class="divide">/</span>1992年建塔楼<span class="divide">/</span><a href="https://bj.lianjia.com/ershoufang/andingmen/" target="_blank">安定门</a></div></div><div class="followInfo">25人关注<span class="divide">/</span>0次带看<div class="timeInfo"><span class="timeIcon"></span>1个月以前发布</div><div class="tag"><span class="subway">距离8号线安德里北街站174米</span><span class="taxfree">房本满五年</span></div><div class="priceInfo"><div class="totalPrice"><span>600</span>万</div><div class="unitPrice" data-hid="101102498518" data-rid="1111027378022" data-price="109111"><span>单价109111元/平米</span></div></div></div><div class="listButtonContainer"><div class="btn-follow followBtn" data-hid="101102498518"><span class="follow-text">关注</span></div><div class="compareBtn LOGCLICK" data-hid="101102498518" log-mod="101102498518" data-log_evtid="10230">加入对比</div></div></li><li class="clear"><a class="img " href="https://bj.lianjia.com/ershoufang/101101130988.html" target="_blank"data-log_index="5" data-el="ershoufang" data-housecode="101101130988" data-is_focus="" data-sl=""><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/c07058a5-bddc-4f2a-9e4c-e800267c3b16.jpg.280x210.jpg.296x216.jpg" alt="六铺炕 3室1厅 890万"></a><div class="info clear"><div class="title"><a class="" href="https://bj.lianjia.com/ershoufang/101101130988.html" target="_blank" data-log_index="5"  data-el="ershoufang" data-housecode="101101130988" data-is_focus="" data-sl="">六铺炕 3室1厅 890万</a><span class="yezhushuo tagBlock">房主自荐</span></div><div class="address"><div class="houseInfo"><a href="https://bj.lianjia.com/xiaoqu/1111027378022/" target="_blank" data-log_index="5" data-el="region">六铺炕 </a><span class="divide">/</span>3室1厅<span class="divide">/</span>79.32平米<span class="divide">/</span>东 西<span class="divide">/</span>精装<span class="divide">/</span>无电梯</div></div><div class="flood"><div class="positionInfo">底层(共6层)<span class="divide">/</span>1980年建板楼<span class="divide">/</span><a href="https://bj.lianjia.com/ershoufang/andingmen/" target="_blank">安定门</a></div></div><div class="followInfo">80人关注<span class="divide">/</span>15次带看<div class="timeInfo"><span class="timeIcon"></span>一年前发布</div><div class="tag"><span class="subway">距离8号线安德里北街站278米</span></div><div class="priceInfo"><div class="totalPrice"><span>890</span>万</div><div class="unitPrice" data-hid="101101130988" data-rid="1111027378022" data-price="112204"><span>单价112204元/平米</span></div></div></div><div class="listButtonContainer"><div class="btn-follow followBtn" data-hid="101101130988"><span class="follow-text">关注</span></div><div class="compareBtn LOGCLICK" data-hid="101101130988" log-mod="101101130988" data-log_evtid="10230">加入对比</div></div></li><li class="clear"><a class="img " href="https://bj.lianjia.com/ershoufang/101102574068.html" target="_blank"data-log_index="6" data-el="ershoufang" data-housecode="101102574068" data-is_focus="" data-sl=""><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/x-se/hdic-frame/ad850821-cf45-4d40-bdc1-3233e03db6d5.png.280x210.jpg.296x216.jpg" alt="六铺炕 2室1厅 704万"></a><div class="info clear"><div class="title"><a class="" href="https://bj.lianjia.com/ershoufang/101102574068.html" target="_blank" data-log_index="6"  data-el="ershoufang" data-housecode="101102574068" data-is_focus="" data-sl="">六铺炕 2室1厅 704万</a><span class="new tagBlock">新上</span></div><div class="address"><div class="houseInfo"><a href="https://bj.lianjia.com/xiaoqu/1111027378022/" target="_blank" data-log_index="6" data-el="region">六铺炕 </a><span class="divide">/</span>2室1厅<span class="divide">/</span>62.32平米<span class="divide">/</span>西北<span class="divide">/</span>其他<span class="divide">/</span>有电梯</div></div><div class="flood"><div class="positionInfo">低楼层(共16层)<span class="divide">/</span>1992年建塔楼<span class="divide">/</span><a href="https://bj.lianjia.com/ershoufang/andingmen/" target="_blank">安定门</a></div></div><div class="followInfo">5人关注<span class="divide">/</span>0次带看<div class="timeInfo"><span class="timeIcon"></span>2天以前发布</div><div class="tag"><span class="subway">距离8号线安德里北街站174米</span><span class="five">房本满两年</span></div><div class="priceInfo"><div class="totalPrice"><span>704</span>万</div><div class="unitPrice" data-hid="101102574068" data-rid="1111027378022" data-price="112966"><span>单价112966元/平米</span></div></div></div><div class="listButtonContainer"><div class="btn-follow followBtn" data-hid="101102574068"><span class="follow-text">关注</span></div><div class="compareBtn LOGCLICK" data-hid="101102574068" log-mod="101102574068" data-log_evtid="10230">加入对比</div></div></li></ul>  <div class="recommendList" id="lessResultWrap">
+    <h2 class="recommendListHeader">猜你喜欢</h2>
+  </div>
+  <div id="lessResultIds" ids="101101424913,101102524791,101102095865,101102498518,101101130988,101102574068"></div>
+  <script type="text/template" id="lessResultTpl">
+    <ul class="sellListContent LOGVIEWDATA" data-lj_view_evtid="11089" data-lj_action_type="pc_ershou_shaojieguo">
+    <% for(var i in list){ %>
+      <li class="clear">
+        <a class="img LOGVIEWDATA LOGCLICKDATA" data-lj_view_evtid="11090" data-lj_evtid="11091" data-lj_action_click_position="<%=i%>" data-lj_action_housedel_id="<%=list[i].houseId%>" data-lj_action_type="pc_ershou_shaojieguo" data-lj_action_strategy_id="<%=list[i].strategyId%>" href="<%=list[i].viewUrl%>" target="_blank">
+          <% if(list[i].isFocus){ %>
+            <div class="focus_tag"></div>
+          <%}%>
+          <img class="lj-lazy" src="<%=list[i].imgSrc%>.232x174.jpg" alt="<% list[i].title%>">
+        </a>
+        <div class="info clear">
+              <div class="title">
+                <a href="<%=list[i].viewUrl%>" target="_blank"
+                data-sl="<%=list[i].strategyId%>" class="LOGCLICKDATA" data-lj_evtid="11091" data-lj_action_click_position="<%=i%>" data-lj_action_housedel_id="<%=list[i].houseId%>" data-lj_action_type="pc_ershou_shaojieguo" data-lj_action_strategy_id="<%=list[i].strategyId%>"><%=list[i].title%></a>
+                <% if(list[i].isTrendDown){ %>
+                  <span class="reduse tagBlock" data-hid="<%=list[i].houseId%>" data-type="1">
+                    降价
+                  </span>
+                <%}%>
+                <% if (list[i].isNew){ %>
+                  <span class="new tagBlock">新上</span>
+                <%}%>
+                <% if (list[i].isYezhuComment){ %>
+                  <span class="yezhushuo tagBlock">房主自荐</span>
+                <%}%>
+              </div>
+
+
+              <div class="address">
+                <div class="houseInfo">
+                  <a href="<%=list[i].communityUrl%>" target="_blank" data-el="region"><%=list[i].communityName%></a>
+                  <%if(list[i].villaName){ %>
+                    <span class="divide">/</span>
+                    <%=list[i].villaName + "别墅" %>
+                  <%}%>
+                  <%if(list[i].roomNum){ %>
+                    <span class="divide">/</span>
+                    <%=list[i].roomNum%>
+                  <%}%>
+                  <%if(list[i].buildingArea){ %>
+                    <span class="divide">/</span>
+                    <%=list[i].buildingArea%>
+                  <%}%>
+                  <%if(list[i].orientation){ %>
+                    <span class="divide">/</span>
+                    <%=list[i].orientation%>
+                  <%}%>
+                  <%if(list[i].decorateType){ %>
+                    <span class="divide">/</span>
+                    <%=list[i].decorateType%>
+                  <%}%>
+                  <%if(list[i].hasElevator){ %>
+                    <span class="divide">/</span>
+                    <%=list[i].hasElevator%>
+                  <%}%>
+                </div>
+              </div>
+              <div class="flood">
+                <div class="positionInfo">
+                  <% if(!list[i].isGarage){ %>
+              <%if(list[i].villaNoFloorLevel){ %>
+                <%=list[i].totalFloor%>层
+              <% }else{ %>
+                <%=list[i].floorStat%>(共<%=list[i].totalFloor%>层)
+              <%}%>
+            <%}%>
+                  <%=list[i].buildYear%><%=list[i].hbtName%> -  <a href="https://bj.lianjia.com/ershoufang/andingmen/" target="_blank"><%=list[i].regionName%></a>
+                </div>
+              </div>
+             <div class="followInfo"><%=list[i].favCount%>人关注 / 共<%=list[i].seeCount%>次带看</div>
+             <div class="timeInfo"><span class="timeIcon"></span><%=list[i].publishTime%></div>
+              <div class="tag">
+                <% if(list[i].subwayInfo){ %>
+                  <span class="subway"><%=list[i].subwayInfo%></span>
+                <%}%>
+                <% for(var j=0;j<list[i].tags.length;j++){ %>
+                    <span class="<%=list[i].tags[j][0]%>"><%=list[i].tags[j][1]%></span>
+                <%}%>
+              </div>
+              <div class="priceInfo">
+                <div class="totalPrice"><span><%=list[i].price%></span>万</div>
+                <div class="unitPrice" data-hid="<%=list[i].houseId%>" data-rid="<%=list[i].community%>" data-price="<%=list[i].unitPrice%>">
+                  <span>单价<%=list[i].unitPrice%>元/平米</span>
+                </div>
+              </div>
+          </div>
+          <div class="listButtonContainer">
+            <div class="btn-follow followBtn" data-hid="<%=list[i].houseId%>" isfav="<%=list[i].isFav == 1 ? 0 : 1 %>">
+              <span class="follow-text"><%=list[i].isFav == 1 ? '取消关注' : '关注' %></span>
+            </div>
+            <div class="compareBtn LOGCLICK" data-hid="<%=list[i].houseId%>" log-mod="<%=list[i].houseId%>" data-log_evtid="10230">
+              加入对比
+            </div>
+         </div>
+      </li>
+    <% } %>
+    </ul>
+  </script>
+<div class="bigImgList" style="display: none;" log-mod="list"><div class="item" data-houseid="101101424913"><a class="img" href="https://bj.lianjia.com/ershoufang/101101424913.html" target="_blank" data-bl="list" data-log_index="1" data-housecode="101101424913" data-is_focus="1"  data-el="ershoufang"><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/44d069e0-c1a4-4c80-934b-e9ca50871474.jpg.280x210.jpg.437x300.jpg"><div class="btn-follow follow" data-hid="101101424913"><span class="star"></span><span class="follow-text">关注</span></div><div class="leftArrow"><span></span></div><div class="rightArrow"><span></span></div><div class="price"><span>595</span>万</div></a><a class="title" href="https://bj.lianjia.com/ershoufang/101101424913.html" target="_blank" data-bl="list" data-log_index="1" data-housecode="101101424913" data-is_focus="1"  data-el="ershoufang">六铺炕 满五 两居室 低楼层 随时看房 有车位</a><div class="info">安定门<span>/</span>2室1厅<span>/</span>58.28平米<span>/</span>西北<span>/</span>精装</div><div class="tag"><span class="subway">距离8号线安德里北街站103米</span><span class="taxfree">房本满五年</span><span class="haskey">随时看房</span></div></div><div class="item" data-houseid="101102524791"><a class="img" href="https://bj.lianjia.com/ershoufang/101102524791.html" target="_blank" data-bl="list" data-log_index="2" data-housecode="101102524791" data-is_focus=""  data-el="ershoufang"><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/rsp_pic_upload07eda571-e76c-4e46-a0fe-8bcee3723178.jpg.280x210.jpg.437x300.jpg"><div class="btn-follow follow" data-hid="101102524791"><span class="star"></span><span class="follow-text">关注</span></div><div class="leftArrow"><span></span></div><div class="rightArrow"><span></span></div><div class="price"><span>630</span>万</div></a><a class="title" href="https://bj.lianjia.com/ershoufang/101102524791.html" target="_blank" data-bl="list" data-log_index="2" data-housecode="101102524791" data-is_focus=""  data-el="ershoufang">青年湖六铺炕，中石油家属楼管理好</a><div class="info">安定门<span>/</span>2室1厅<span>/</span>57.15平米<span>/</span>东 西<span>/</span>精装<span>/</span>无电梯</div><div class="tag"><span class="subway">距离8号线安德里北街站560米</span><span class="taxfree">房本满五年</span></div></div><div class="item" data-houseid="101102095865"><a class="img" href="https://bj.lianjia.com/ershoufang/101102095865.html" target="_blank" data-bl="list" data-log_index="3" data-housecode="101102095865" data-is_focus=""  data-el="ershoufang"><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/85ed665b-74ad-47d2-9de9-9d435a7879e9.jpg.280x210.jpg.437x300.jpg"><div class="btn-follow follow" data-hid="101102095865"><span class="star"></span><span class="follow-text">关注</span></div><div class="leftArrow"><span></span></div><div class="rightArrow"><span></span></div><div class="price"><span>630</span>万</div></a><a class="title" href="https://bj.lianjia.com/ershoufang/101102095865.html" target="_blank" data-bl="list" data-log_index="3" data-housecode="101102095865" data-is_focus=""  data-el="ershoufang">单价低户型好采光足，诚心出售两居室，可以给周期。</a><div class="info">安定门<span>/</span>2室1厅<span>/</span>54.99平米<span>/</span>东<span>/</span>简装<span>/</span>有电梯</div><div class="tag"><span class="subway">距离8号线安德里北街站174米</span><span class="haskey">随时看房</span></div></div><div class="item" data-houseid="101102498518"><a class="img" href="https://bj.lianjia.com/ershoufang/101102498518.html" target="_blank" data-bl="list" data-log_index="4" data-housecode="101102498518" data-is_focus=""  data-el="ershoufang"><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/rsp_pic_upload62b5d41d-1737-4b89-912a-339fd44dd283.jpg.280x210.jpg.437x300.jpg"><div class="btn-follow follow" data-hid="101102498518"><span class="star"></span><span class="follow-text">关注</span></div><div class="leftArrow"><span></span></div><div class="rightArrow"><span></span></div><div class="price"><span>600</span>万</div></a><a class="title" href="https://bj.lianjia.com/ershoufang/101102498518.html" target="_blank" data-bl="list" data-log_index="4" data-housecode="101102498518" data-is_focus=""  data-el="ershoufang">东城六铺炕 诚心出售 高楼层 视野好 采光好</a><div class="info">安定门<span>/</span>2室1厅<span>/</span>54.99平米<span>/</span>东<span>/</span>精装<span>/</span>有电梯</div><div class="tag"><span class="subway">距离8号线安德里北街站174米</span><span class="taxfree">房本满五年</span></div></div><div class="item" data-houseid="101101130988"><a class="img" href="https://bj.lianjia.com/ershoufang/101101130988.html" target="_blank" data-bl="list" data-log_index="5" data-housecode="101101130988" data-is_focus=""  data-el="ershoufang"><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/110000-inspection/c07058a5-bddc-4f2a-9e4c-e800267c3b16.jpg.280x210.jpg.437x300.jpg"><div class="btn-follow follow" data-hid="101101130988"><span class="star"></span><span class="follow-text">关注</span></div><div class="leftArrow"><span></span></div><div class="rightArrow"><span></span></div><div class="price"><span>890</span>万</div></a><a class="title" href="https://bj.lianjia.com/ershoufang/101101130988.html" target="_blank" data-bl="list" data-log_index="5" data-housecode="101101130988" data-is_focus=""  data-el="ershoufang">六铺炕 3室1厅 890万</a><div class="info">安定门<span>/</span>3室1厅<span>/</span>79.32平米<span>/</span>东 西<span>/</span>精装<span>/</span>无电梯</div><div class="tag"><span class="subway">距离8号线安德里北街站278米</span></div></div><div class="item" data-houseid="101102574068"><a class="img" href="https://bj.lianjia.com/ershoufang/101102574068.html" target="_blank" data-bl="list" data-log_index="6" data-housecode="101102574068" data-is_focus=""  data-el="ershoufang"><img class="lj-lazy" src="https://s1.ljcdn.com/feroot/pc/asset/img/blank.gif?_v=20180223171650444" data-original="https://image1.ljcdn.com/x-se/hdic-frame/ad850821-cf45-4d40-bdc1-3233e03db6d5.png.280x210.jpg.437x300.jpg"><div class="btn-follow follow" data-hid="101102574068"><span class="star"></span><span class="follow-text">关注</span></div><div class="leftArrow"><span></span></div><div class="rightArrow"><span></span></div><div class="price"><span>704</span>万</div></a><a class="title" href="https://bj.lianjia.com/ershoufang/101102574068.html" target="_blank" data-bl="list" data-log_index="6" data-housecode="101102574068" data-is_focus=""  data-el="ershoufang">六铺炕 2室1厅 704万</a><div class="info">安定门<span>/</span>2室1厅<span>/</span>62.32平米<span>/</span>西北<span>/</span>其他<span>/</span>有电梯</div><div class="tag"><span class="subway">距离8号线安德里北街站174米</span><span class="five">房本满两年</span></div></div></div><!-- 无搜索结果 --><div id="noResultPush"></div><div class="contentBottom clear" ><div class="crumbs fl"><a href="/">链家网北京站</a><span >&nbsp;&gt;&nbsp;</span><a href="/ershoufang/">北京二手房</a><span >&nbsp;&gt;&nbsp;</span><a href="/ershoufang/dongcheng/">东城二手房</a><span >&nbsp;&gt;&nbsp;</span><a href="/ershoufang/andingmen/">安定门二手房</a><span >&nbsp;&gt;&nbsp;</span><h1><a href="/ershoufang/c1111027378022/">六铺炕二手房出售</a></h1></div><div class="page-box fr"><div class="page-box house-lst-page-box" comp-module='page' page-url="/ershoufang/pg{page}c1111027378022/"page-data='{"totalPage":1,"curPage":1}'></div>
+
+
+</div></div><div style="display:none;"><p>北京二手房信息</p><p>链家网北京站北京二手房频道提供真实、时时的北京二手房房源信息，北京二手房房源目前为6套，全>部由线下经纪人确认核实上传，信息可靠，北京二手房用户可以在链家网北京二手房频道和北京二手房频道移动端最快速、最及时的找到自己想要的真>实、放心房源。链家网北京二手房平台，真房源，如你所见！</p><p>五路通 中间层 双阳台大两居 临公园 核心卖点:此房满五年唯一，自动化研究所央产房，学籍和户口都没问题！ 户型介绍:正规朝东大两居，中间楼层，两个卧室面积很大，有10平米左右的客厅，卫生间面积可以扩大！央产房性质，公摊小！ 税费解析:本房是自动化研究所的央产房，满五年唯一，可以贷款，交易时只有契税和1101.36元的土地出让金！ 小区介绍:此房所在小区楼前有大片的绿化带，距离人定湖公园西门只有200米的距离！小区中间位置，安安静静！全明格局 270&deg;观景人定湖公园  五路通区域可考虑 税费解析:本房是满五不唯一的央产房，购买只有网签价*1%的个人所得税，您首套1%的契税，二套2%的契税，没有大额的其他税费。适合刚需购房的客户群体。 交通出行:小区出行方便，1、驾车路线：西边500米不到就是旧八达岭高速，往南是北二环。2、小区出门步行50米就是公交站---德外关厢，公交有5路;55路;625路;夜2路经过 3、骑行路线：小区门口摆放公交自行车； 装修描述:房子是2003年精装修，2015年更换冰洗，油烟机和厨房灶台和厨柜，户内木地板，顶层高3米上设20厘米隔热层，採暖主管绕室一周保暖良好。本房是业主叔叔自己绘图监督盖成的，质量可以值得信赖，叔叔自己就是北京市自动化研究所的员工。 户型介绍:房子是东西通透，全明格局，卫生间和厨房都是朝西，主卧带朝东的阳台且有南向窗户，次卧朝西且带有南向窗户，两个卧室之间有改动了一个书房带朝南向的窗户，通风采光好，阳台俯看公园视界宽阔，空气清新，闹中取静。 核心卖点:房子是东西通透挂南窗，小三居室居住性高，购买成本低，随时签</p></div></div><!-- 右侧sidebar --><div class="rightLayout"><div class="rightContent"><div class="map"><div class="pic"></div><button id="btn-map">试试地图找房</button></div><div class="price" id='priceSideBarContainer' log-mod="recommand_price"></div><div class="suggestAgent" id='suggestAgentContainer' log-mod="ershoufang_list_recommend-agent"></div><div class="suggestHouse" id="suggestHouseContainer" log-mod="recommand_house"></div><div class="suggestCommunity" id="suggestCommunityContainer" log-mod="ershoufang_list_recommend-community"></div><div class="nearby nearby_bj"><a class="pic" href="/nearby/" target="_blank" class="LOGVIEW LOGCLICK" data-bl="nearby"  data-log_id=""></a></div><div class="wenda zixun" id="pushZixunContainer" log-mod="recommand_zixun"></div><div class="wenda SCROLLVIEWLOG" id="pushWendaContainer" log-mod="recommand_wenda"></div><div class="wenda SCROLLVIEWLOG" id="pushBaikeContainer" log-mod="recommand_baike"></div><div class="download"><div class="title">下载链家APP</div><div class="qr-code"><img width="64" height="64" src="//ajax.api.lianjia.com/qr/getDownloadQr?location=right&ljweb_channel_key=ershoufang_search" alt="下载链家app"><div class="text"><p>扫描上方二维码</p><p>随时查看新房源</p><p class="get-more"><a href="//www.lianjia.com/client/">了解更多<img width="9" height="9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAACcn6Gfn5+an5+bnqCbnqGfn5+cn6EV6DbuAAAAB3RSTlMA0BAw8LAgvf5k9AAAAEdJREFUKM9jIBOkBqMJhBcqoAmUC6EKmJSjKWEWR1eiiK6ECZsSA3QlzuhKSihRghDA0EJ/BWIoCgzh4YMIZALRYBrMQAkAAF5bGMBkrwzqAAAAAElFTkSuQmCC"></a></p></div></div></div><div class="download download-fixed" style="display: none;"><div class="title">下载链家APP</div><div class="qr-code"><img width="64" height="64" src="//ajax.api.lianjia.com/qr/getDownloadQr?location=right&ljweb_channel_key=ershoufang_search" alt="下载链家app"><div class="text"><p>扫描上方二维码</p><p>随时查看新房源</p><p class="get-more"><a href="//www.lianjia.com/client/">了解更多<img width="9" height="9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAACcn6Gfn5+an5+bnqCbnqGfn5+cn6EV6DbuAAAAB3RSTlMA0BAw8LAgvf5k9AAAAEdJREFUKM9jIBOkBqMJhBcqoAmUC6EKmJSjKWEWR1eiiK6ECZsSA3QlzuhKSihRghDA0EJ/BWIoCgzh4YMIZALRYBrMQAkAAF5bGMBkrwzqAAAAAElFTkSuQmCC"></a></p></div></div></div></div></div><div style="clear:both"></div></div><div id="pushCommunity" class="pushCommunity" log-mod="ershoufang_list_recommend-community"></div><div id="newHousePush" class="newHousePush"></div><div class="saveMegmask"></div><div class="saveok"><div class="fl"></div><div class="fr"><span>已成功保存搜索条件！</span><p>您可在搜索框右侧下拉列表中快速使用该条件。该条件有新房源出现时，我们将会用站内提醒的方式来通知您</p><label class="close">确定</label></div></div><div class="saveerror"><div class="fl"></div><div class="fr"><span>你的搜索条件已达到上限！</span><p>您可在搜索框右侧下拉列表中快速使用该条件。该条件有新房源出现时，我们将会用站内提醒的方式来通知您。</p><a href="//user.lianjia.com/site/searchlist/">个人中心</a><label  class="close">取消</label></div></div><div class="footer"><div class="wrapper"><div class="f-title"><div class="fl"><ul><li><a href="https://www.lianjia.com/zhuanti/home/" rel="nofollow" target="_blank">了解链家</a></li><li><a href="https://bj.lianjia.com/about/aboutlianjia/" rel="nofollow" target="_blank">关于链家</a></li><li><a href="https://bj.lianjia.com/about/contactus/" rel="nofollow" target="_blank">联系我们</a></li><li><a href="https://join.lianjia.com/" rel="nofollow" target="_blank">加入我们</a></li><li><a href="https://www.lianjia.com/privacy/" rel="nofollow" target="_blank">隐私声明</a></li><li><a href="https://bj.lianjia.com/sitemap/" target="_blank">网站地图</a></li><li><a href="https://www.lianjia.com/notice/7.html" rel="nofollow" target="_blank">友情链接</a></li><li><a href="https://agent.lianjia.com/" rel="nofollow" target="_blank">经纪人登录</a></li></ul></div><div class="fr">官方客服 1010 9666</div></div><div class="lianjia-link-box"><div class="fl"><div class="tab"><span  class="hover">城市二手房</span><span >房产资讯</span><span >城区二手房</span><span >城区租房</span><span >城区小区</span><span >热门小区</span><span >热门问答</span><span >热门百科</span></div><div class="link-list"><div><dd><a target="_blank" href="https://bj.lianjia.com/">北京房产网</a><a target="_blank" href="https://gz.lianjia.com/">广州房产网</a><a target="_blank" href="https://sz.lianjia.com/">深圳房产网</a><a target="_blank" href="https://tj.lianjia.com/">天津房产网</a><a target="_blank" href="https://cd.lianjia.com/">成都房产网</a><a target="_blank" href="https://nj.lianjia.com/">南京房产网</a><a target="_blank" href="https://hz.lianjia.com/">杭州房产网</a><a target="_blank" href="https://qd.lianjia.com/">青岛房产网</a><a target="_blank" href="https://dl.lianjia.com/">大连房产网</a><a target="_blank" href="https://xm.lianjia.com/">厦门房产网</a><a target="_blank" href="https://wh.lianjia.com/">武汉房产网</a><a target="_blank" href="https://cq.lianjia.com/">重庆房产网</a><a target="_blank" href="https://cs.lianjia.com/">长沙房产网</a><a target="_blank" href="https://jn.lianjia.com/">济南房产网</a><a target="_blank" href="https://fs.lianjia.com/">佛山房产网</a><a target="_blank" href="https://dg.lianjia.com/">东莞房产网</a><a target="_blank" href="https://xa.lianjia.com/">西安房产网</a><a target="_blank" href="https://sjz.lianjia.com/">石家庄房产网</a><a target="_blank" href="https://yt.lianjia.com/">烟台房产网</a><a target="_blank" href="https://zs.lianjia.com/">中山房产网</a><a target="_blank" href="https://zh.lianjia.com/">珠海房产网</a><a target="_blank" href="https://hui.lianjia.com/">惠州房产网</a><a target="_blank" href="https://sy.lianjia.com/">沈阳房产网</a><a target="_blank" href="https://wx.lianjia.com/">无锡房产网</a><a target="_blank" href="https://hf.lianjia.com/">合肥房产网</a><a target="_blank" href="https://zz.lianjia.com/">郑州房产网</a></dd></div><div><dd><a target="_blank" href="https://news.lianjia.com/">房产资讯</a><a target="_blank" href="https://news.lianjia.com/bj/">北京房产资讯</a><a target="_blank" href="https://news.lianjia.com/bj/baike/">北京房产百科</a><a target="_blank" href="https://bj.lianjia.com/wenda/">北京房产知识</a><a target="_blank" href="https://news.lianjia.com/gz/">广州房产资讯</a><a target="_blank" href="https://news.lianjia.com/gz/baike/">广州房产百科</a><a target="_blank" href="https://gz.lianjia.com/wenda/">广州房产知识</a><a target="_blank" href="https://news.lianjia.com/sz/">深圳房产资讯</a><a target="_blank" href="https://news.lianjia.com/sz/baike/">深圳房产百科</a><a target="_blank" href="https://sz.lianjia.com/wenda/">深圳房产知识</a><a target="_blank" href="https://news.lianjia.com/tj/">天津房产资讯</a><a target="_blank" href="https://news.lianjia.com/tj/baike/">天津房产百科</a><a target="_blank" href="https://tj.lianjia.com/wenda/">天津房产知识</a><a target="_blank" href="https://news.lianjia.com/cd/">成都房产资讯</a><a target="_blank" href="https://news.lianjia.com/cd/baike/">成都房产百科</a><a target="_blank" href="https://cd.lianjia.com/wenda/">成都房产知识</a><a target="_blank" href="https://news.lianjia.com/nj/">南京房产资讯</a><a target="_blank" href="https://news.lianjia.com/nj/baike/">南京房产百科</a><a target="_blank" href="https://nj.lianjia.com/wenda/">南京房产知识</a><a target="_blank" href="https://news.lianjia.com/hz/">杭州房产资讯</a><a target="_blank" href="https://news.lianjia.com/hz/baike/">杭州房产百科</a><a target="_blank" href="https://hz.lianjia.com/wenda/">杭州房产知识</a><a target="_blank" href="https://news.lianjia.com/qd/">青岛房产资讯</a><a target="_blank" href="https://news.lianjia.com/qd/baike/">青岛房产百科</a><a target="_blank" href="https://qd.lianjia.com/wenda/">青岛房产知识</a><a target="_blank" href="https://news.lianjia.com/dl/">大连房产资讯</a><a target="_blank" href="https://news.lianjia.com/dl/baike/">大连房产百科</a><a target="_blank" href="https://dl.lianjia.com/wenda/">大连房产知识</a><a target="_blank" href="https://news.lianjia.com/xm/">厦门房产资讯</a><a target="_blank" href="https://news.lianjia.com/xm/baike/">厦门房产百科</a><a target="_blank" href="https://news.lianjia.com/wh/">武汉房产资讯</a><a target="_blank" href="https://news.lianjia.com/wh/baike/">武汉房产百科</a><a target="_blank" href="https://news.lianjia.com/cq/">重庆房产资讯</a><a target="_blank" href="https://news.lianjia.com/cq/baike/">重庆房产百科</a><a target="_blank" href="https://cq.lianjia.com/wenda/">重庆房产知识</a><a target="_blank" href="https://news.lianjia.com/cs/">长沙房产资讯</a><a target="_blank" href="https://news.lianjia.com/cs/baike/">长沙房产百科</a><a target="_blank" href="https://cs.lianjia.com/wenda/">长沙房产知识</a><a target="_blank" href="https://news.lianjia.com/jn/">济南房产资讯</a><a target="_blank" href="https://news.lianjia.com/jn/baike/">济南房产百科</a><a target="_blank" href="https://jn.lianjia.com/wenda/">济南房产知识</a><a target="_blank" href="https://news.lianjia.com/fs/">佛山房产资讯</a><a target="_blank" href="https://news.lianjia.com/fs/baike/">佛山房产百科</a><a target="_blank" href="https://fs.lianjia.com/wenda/">佛山房产知识</a><a target="_blank" href="https://news.lianjia.com/dg/">东莞房产资讯</a><a target="_blank" href="https://news.lianjia.com/dg/baike/">东莞房产百科</a><a target="_blank" href="https://dg.lianjia.com/wenda/">东莞房产知识</a><a target="_blank" href="https://news.lianjia.com/xa/">西安房产资讯</a><a target="_blank" href="https://news.lianjia.com/xa/baike/">西安房产百科</a><a target="_blank" href="https://xa.lianjia.com/wenda/">西安房产知识</a><a target="_blank" href="https://news.lianjia.com/sjz/">石家庄房产资讯</a><a target="_blank" href="https://news.lianjia.com/sjz/baike/">石家庄房产百科</a><a target="_blank" href="https://sjz.lianjia.com/wenda/">石家庄房产知识</a><a target="_blank" href="https://news.lianjia.com/yt/">烟台房产资讯</a><a target="_blank" href="https://news.lianjia.com/yt/baike/">烟台房产百科</a><a target="_blank" href="https://news.lianjia.com/sy/">沈阳房产资讯</a><a target="_blank" href="https://news.lianjia.com/sy/baike/">沈阳房产百科</a><a target="_blank" href="https://sy.lianjia.com/wenda/">沈阳房产知识</a><a target="_blank" href="https://news.lianjia.com/hf/">合肥房产资讯</a><a target="_blank" href="https://news.lianjia.com/hf/baike/">合肥房产百科</a><a target="_blank" href="https://hf.lianjia.com/wenda/">合肥房产知识</a><a target="_blank" href="https://news.lianjia.com/zz/">郑州房产资讯</a><a target="_blank" href="https://news.lianjia.com/zz/baike/">郑州房产百科</a></dd></div><div><dd><a target="_blank" href="http://bj.lianjia.com/ershoufang/dongcheng/">东城二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/fengtai/">丰台二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/yizhuangkaifaqu/">亦庄开发区二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/daxing/">大兴二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/miyun/">密云二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/pinggu/">平谷二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/yanqing/">延庆二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/huairou/">怀柔二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/fangshan/">房山二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/changping/">昌平二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/chaoyang/">朝阳二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/haidian/">海淀二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/shijingshan/">石景山二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/xicheng/">西城二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/tongzhou/">通州二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/mentougou/">门头沟二手房</a><a target="_blank" href="http://bj.lianjia.com/ershoufang/shunyi/">顺义二手房</a></dd></div><div><dd><a target="_blank" href="http://bj.lianjia.com/zufang/dongcheng/">东城租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/fengtai/">丰台租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/yizhuangkaifaqu/">亦庄开发区租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/daxing/">大兴租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/miyun/">密云租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/pinggu/">平谷租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/yanqing/">延庆租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/huairou/">怀柔租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/fangshan/">房山租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/changping/">昌平租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/chaoyang/">朝阳租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/haidian/">海淀租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/shijingshan/">石景山租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/xicheng/">西城租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/tongzhou/">通州租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/mentougou/">门头沟租房</a><a target="_blank" href="http://bj.lianjia.com/zufang/shunyi/">顺义租房</a></dd></div><div><dd><a target="_blank" href="http://bj.lianjia.com/xiaoqu/dongcheng/">东城小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/fengtai/">丰台小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/yizhuangkaifaqu/">亦庄开发区小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/daxing/">大兴小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/miyun/">密云小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/pinggu/">平谷小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/yanqing/">延庆小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/huairou/">怀柔小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/fangshan/">房山小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/changping/">昌平小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/chaoyang/">朝阳小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/haidian/">海淀小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/shijingshan/">石景山小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/xicheng/">西城小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/tongzhou/">通州小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/mentougou/">门头沟小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/shunyi/">顺义小区</a></dd></div><div><dd><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027380578/">西坝河西里</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027378259/">毛纺厂南小区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111063643291/">枫丹壹号</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027378236/">丽泽雅园</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027380791/">星河城东区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027374195/">枫丹丽舍</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027374935/">华鼎世家二期</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027382733/">枣营北里</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111044068167/">青秀城</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027376911/">定慧福里</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027380345/">万科紫苑</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027374488/">观澳园</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027379361/">尚家楼48号院</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027381670/">银谷美泉家园</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027380103/">泰悦豪庭</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027375676/">爱这城二期</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027377595/">瞰都国际</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111046364973/">百旺新城</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027374690/">国瑞城西区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027379198/">时代庄园</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027377839/">鹿港嘉苑</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027379078/">润泽庄园</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027382441/">中国铁建国际城</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027379804/">天鹅湾北区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027379186/">上地西里</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027374529/">格调</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027380853/">小红庙</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027373685/">东花市北里中区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027374542/">光大名筑</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027380931/">新景家园西区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027379533/">水清木华园</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027379029/">融科橄榄城三期</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027376599/">崇文门东大街</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027374228/">泛海国际碧海园</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027376564/">椿树园</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027373953/">德外大街乙12号院</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027378024/">六铺炕三区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111027378025/">六铺炕一区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111047005416/">水色时光五区</a><a target="_blank" href="http://bj.lianjia.com/xiaoqu/1111055902990/">中冶蓝城</a></dd></div><div><dd><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b1001/">房价行情</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b1002/">购房建议</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b1003/">购房资质</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b1004/">买房风险</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b1005/">二手房</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b1006/">新房</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b1007/">海外买房</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b2001/">税费计算</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b2002/">认购签约</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b2003/">资金监管</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b2004/">过户流程</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b2005/">入住交接</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b3001/">房屋估价</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b3002/">卖房流程</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b3003/">出售方案</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b3004/">业主风险</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b3005/">卖旧买新</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b5001/">贷款利率</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b5002/">首付月供</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b5003/">贷款流程</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b5004/">住房公积金</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b5005/">商业贷款</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b5006/">融资借款</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b5007/">金融方案</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b6001/">房产政策</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b6002/">法律纠纷</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b6003/">保障住房</a><a target="_blank" href="http://bj.lianjia.com/wenda/liebiao/b6004/">其他</a></dd></div><div><dd><a target="_blank" href="http://news.lianjia.com/bj/baike/0033/">房产政策</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0035/">购房建议</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0036/">购房资质</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0037/">房屋贷款</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0039/">保障住房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0040/">产权/变更</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0041/">法律纠纷</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0042/">房屋装修</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0044/">准备买房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0045/">看房/选房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0046/">签约/定房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0047/">全款/贷款</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0048/">缴税/过户</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0049/">入住/交接</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0050/">买房风险</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0051/">准备买房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0052/">看房/选房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0053/">认购新房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0054/">签约/定房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0055/">全款/贷款</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0056/">收房/验房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0057/">装修/入住</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0058/">退房/维权</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0059/">各国概况</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0060/">计划买房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0061/">签约定房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0062/">银行贷款</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0063/">交易过户</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0064/">房屋代理</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0066/">准备卖房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0067/">产权核验</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0068/">收定金/签约</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0069/">分步收款</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0070/">缴税/过户</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0071/">交房须知</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0072/">卖房风险</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0073/">准备换房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0074/">换房方案</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0077/">缴税/过户</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0078/">交房/收房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/0079/">换房风险</a><a target="_blank" href="http://news.lianjia.com/bj/baike/00779/">找房看房</a><a target="_blank" href="http://news.lianjia.com/bj/baike/00780/">签约付款</a><a target="_blank" href="http://news.lianjia.com/bj/baike/00781/">物业交割</a><a target="_blank" href="http://news.lianjia.com/bj/baike/00782/">租房纠纷</a><a target="_blank" href="http://news.lianjia.com/bj/baike/00783/">我是房东</a></dd></div></div></div><div class="clear"></div></div><div class="bottom"><div class="copyright fl">链家网（北京）科技有限公司 | 网络经营许可证 京ICP备16057509号-2 | © Copyright©2010-2018 链家网Lianjia.com版权所有</div><div style="width:300px;color: #888c8e;font-size: 12px;line-height: 20px;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802024019" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://s1.ljcdn.com/feroot/pc/asset/img/home/beian.png?_v=20180223171650444"" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;color: #888c8e;">京公网安备 11010802024019号</p></a></div></div></div></div>
+
+<script src="https://s1.ljcdn.com/feroot/pc/asset/base/fe.js?_v=20180223171650444"></script><script src="https://s1.ljcdn.com/feroot/pc/asset/common/common.js?_v=20180223171650444"></script><div style="display:none"><script src="https://s1.ljcdn.com/feroot/dep/ljanalytics.js?_v=20180223171650444"></script></div><div id="only" data-city="bj" data-page="ershoufang_search"></div>
+<script>var path = 'https://s1.ljcdn.com/feroot/pc/asset?_v=20180223171650444'.split("?");require.config({baseUrl: path[0],paths: {'echarts' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/bar' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/line' : '../../dep/echarts-1.4.1/build/echarts','echarts/chart/pie' : '../../dep/echarts-1.4.1/build/echarts','echarts3' : '../../dep/echarts3/echarts3','common': 'common','jquery-ui': '../../dep/jquery-ui/jquery-ui.min','zeroclipboard': '../../dep/zeroclipboard-2.2.0/ZeroClipboard'},urlArgs:  path[1]});var feData = {"cityName": "北京","getFavHouseUrl":       "/api/gethousefav","setFavHouseUrl":       "/api/sethousefav","getLastSearch":        "/api/getlastsearch","getCommunityHistory":  "/api/getcommunityhistory","verifyHouse":          "/api/verifyHouse","getUser":              "/api/getUser","verifyCode":           "/verifycode/getVerifyCode","complaint":            "/api/complaint","getDecoration":        "/api/getDecoration","trendData" :           "/site/getpicinfo"}</script>
+<script type="text/template" id="priceSideBarTpl">
+<%if(tag !== 'school'){%>
+  <div class="title"><%=name%>最新参考均价</div>
+  <div class="priceMap" id="priceChartContainer"></div>
+  <a href="<%=fangjia_url%>" class="unitPrice" target="_blank">
+    <span><%=month_trans%></span>元/平米
+  </a>
+  <div class="info">
+    <a href="<%=fangjia_url%>" target="_blank">环比上月均价<%=month_trans_ratio>=0?'上涨':'下降'%> <%=month_trans_ratio%>%</a>
+    <a href="<%=chengjiao_url%>" target="_blank">/ 近90天成交<%=sold_90_day%>套</a>
+    <%if(tag === '小区'){%>
+    <div>
+      <a class="cardMoreDetail" href="<%=url%>" target="_blank">查看小区详情>></a>
+    </div>
+    <%}%>
+  </div>
+<%}else{%>
+  <a class="title" href="<%=url%>" target="_blank"><%=name%></a>
+  <div class="unitPrice school">
+    <span><%=min_unit_price%></span>万元起
+  </div>
+  <div class="info">
+    <a href="<%=url%>" target="_blank">本学区目前有在售二手房<%=sell_num%>套，划片小区<%=resblock_nums%>个</a>
+    <a class="cardMoreDetail" href="<%=url%>"  target="_blank">查看学区详情>></a>
+  </div>
+<%}%>
+</script>
+
+<script type="text/template" id="suggestAgentTpl">
+  <div class="title">推荐置业顾问</div>
+  <div class="agent">
+    <a class="img <%= (desc.search('学区') > -1) ? '': 'LOGVIEW LOGCLICK'%>" href="<%=url%>" target="_blank" data-bl="agent_<%= (desc.search('学区') > -1) ? 'school': 'community'%>" data-el="<%=ucid%>" data-log_id="20001">
+      <img src="<%=photo_url%>" alt="">
+    </a>
+    <div class="info">
+      <div class="name">
+        <a href="<%=url%>" target="_blank" data-bl="agent_<%= (desc.search('学区') > -1) ? 'school': 'community'%>" data-el="<%=ucid%>" class="<%= (desc.search('学区') > -1) ? '': 'LOGCLICK'%>" data-log_id="20001"><%=name%></a>
+        <a class="lianjiaim-createtalk <%= (desc.search('学区') > -1) ? '': 'LOGCLICK'%>" style="padding: 1px 0 !important;" title="在线咨询" data-role="lianjiaim-createtalk" data-ucid="<%=ucid%>" data-bl="agentim_<%= (desc.search('学区') > -1) ? 'school': 'community'%>" data-el="<%=ucid%>" data-log_id="20001"></a>
+      </div>
+      <div class="phone"><%=phone%></div>
+    </div>
+  </div>
+  <div class="agentInfo" title="<%=desc%>"><%=formatDesc%></div>
+</script>
+<script type="text/template" id="suggestHouseTpl">
+  <a class="img" href="<%=url%>" target="_blank" data-bl="list" data-log_index="<%=index+1%>">
+    <img src="<%=img_url%>" alt="">
+    <div class="cover"></div>
+    <div class="title">
+      <span><%=title%></span>&nbsp;
+    </div>
+  </a>
+  <div class="pointContainer">
+  <%for(var i = 0; i < total; i++){%>
+    <%if(index === i){%>
+      <span data-index="<%=i%>" class="point selected"></span>
+    <%}else{%>
+      <span data-index="<%=i%>" class="point"></span>
+    <%}%>
+  <%}%>
+  </div>
+</script>
+<script type="text/template" id="suggestCommunityTpl">
+  <div class="title">小区推荐</div>
+  <ul>
+  <%for(var i = 0; i < list.length; i++){%>
+    <li>
+      <a href="<%=list[i].url%>" class="img LOGVIEW LOGCLICK" data-log_id="30001" target="_blank" data-log_index="<%=i+1%>" data-bl="<%=$.trim($('.list-more dl:first dt').text()) === '小区' ? 'community' : 'bizcircle'%>" data-el="">
+        <%if(list[i].pic) {%>
+          <img src="<%=list[i].picUri%>.280x210.jpg">
+        <%}else{%>
+          <span class="noimg">暂无图片</span>
+        <%}%>
+        <div class="price">
+          <%if(list[i].price!=0 && list[i].price) {%><%=parseFloat(list[i].price, 10).toFixed()%>元/平<%}else{%>暂无均价<%}%>
+        </div>
+      </a>
+      <div class="info clear">
+        <a href="<%=list[i].url%>" target="_blank" class="fl"><%=list[i].name%></a>
+        <div class="fr"><%=list[i].sellNum%>套在售</div>
+      </div>
+      <div class="desc"><%=list[i].desc%></div>
+    </li>
+  <%}%>
+  </ul>
+</script>
+<script type="text/template" id="pushZhuanjiaTpl">
+  <span class="name">推荐学区顾问</span>
+  <span class="fl pic">
+    <img src='<%=list.photoPath%>'>
+  </span>
+  <span class="fl">
+    <a href="<%=list.agentUrl%>" target="_blank"><%=list.name%></a>
+    <a class="lianjiaim-createtalk" style="display: none;" title="在线咨询" data-role="lianjiaim-createtalk" data-ucid="<%=list.agent_ucid%>"></a>
+    <p class="tel"><%=list.phoneNumber%></p>
+  </span>
+  <p class="tips">
+    <%=list.desc%>
+  </p>
+</script>
+
+<script type="text/template" id="pushXuexiaoTpl">
+  <div class="title"><%=data.regionName%>近期热门学校</div>
+  <ul>
+  <% var list = data.list;for(var i = 0;i < list.length; i++){%>
+    <li class="li<%=i%>">
+      <i></i>
+      <a class="info" href="<%=list[i].viewUrl%>" target="_blank"><%=list[i].schoolName%></a>
+      <span><%=list[i].viewCount%>浏览</span>
+    </li>
+  <%}%>
+  </ul>
+</script>
+<script type="text/template" id="pushChenjiaoTpl">
+  <div class="title"><%=data.regionName%>近期成交</div>
+  <ul>
+  <% var list = data.list; for(var i = 0;i < list.length; i++){%>
+    <li class="li<%=i%>">
+      <i></i>
+      <a class="info" href="<%=list[i].viewUrl%>" target="_blank"><%=list[i].schoolName%></a>
+      <span><%=list[i].dealCount%>套</span>
+    </li>
+  <%}%>
+  </ul>
+</script>
+<script type="text/template" id="pushXuequTpl">
+  <div class="title">热点精选</div>
+  <ul>
+  <%for(var i = 0;i < list.length; i++){%>
+    <li>
+      <a class="info" href="<%=list[i].pc_url%>" target="_blank"><%=list[i].title%></a>
+    </li>
+  <%}%>
+  </ul>
+</script>
+<script type="text/template" id="pushZixunTpl">
+  <div class="title">热点精选</div>
+  <ul>
+  <%for(var i = 0;i < list.length; i++){%>
+    <li>
+      <a class="info" href="<%=list[i].url%>" target="_blank" data-bl="list" data-log_index="<%=i+1%>">
+        <i class="opt<%=i%>"><%=i+1%></i><span><%=list[i].question_title%></span>
+      </a>
+    </li>
+  <%}%>
+  </ul>
+</script>
+<script type="text/template" id="pushWendaTpl">
+  <div class="title">热门问答</div>
+  <ul>
+  <%for(var i = 0;i < list.length; i++){%>
+    <li>
+      <a class="info" href="<%=list[i].url%>" target="_blank" data-bl="list" data-log_index="<%=i+1%>"><%=list[i].question_title%></a>
+      <span class="answer_count"><%=list[i].answer_count%>个回答 / </span><span class="time"><%=list[i].mtime%></span>
+    </li>
+  <%}%>
+  </ul>
+</script>
+<script type="text/template" id="pushBaikeTpl">
+  <div class="list-baike">
+    <div class="title">热门百科
+      <a href="<%=baike_data['more_url']%>" class="btn-more" target="_blank">更多</a>
+    </div>
+    <div class="bd">
+      <%for(var i = 0;i < baike_data['data'].length; i++){%>
+        <div class="item"><a href="<%=baike_data['data'][i].url%>" target="_blank" class="tit"><%=baike_data['data'][i].title%></a><div class="sub-tit"><%=baike_data['data'][i].summary%></div><span class="arrow"></span></div>
+      <%}%>
+    </div>
+  </div>
+</script>
+<script type="text/template" id="newAddHouseTpl">
+  <div class="newAddHouse">
+    自从您上次浏览（<%=time%>）之后，该搜索条件下新增加了<%=count%>套房源
+    <a href="<%=url%>" class="LOGNEWERSHOUFANGSHOW" <%=logText%>><%=linkText%></a>
+    <span class="newHouseRightClose">x</span>
+  </div>
+</script>
+<script type="text/template" id="pushXinfangTpl">
+  <div class="newHousePushContainer">
+    <h3>推荐楼盘</h3>
+    <ul log-mod="ershoufang_list_newHouseRecommand">
+      <%for(var i = 0; i < list.length; i++){%>
+        <li>
+          <a class="pic LOGVIEW LOGCLICK" href="<%=list[i].view_url%>" target="_blank" data-bl="list" data-log_id="40001" data-el="<%=strategy_version%>" data-log_index="<%=i+1%>">
+            <span class="bg"></span>
+            <%if(list[i].cover_pic){%>
+              <img src="<%=list[i].cover_pic%>.218x150.jpg">
+            <%}else{%>
+              <div class="mark"></div>
+            <%}%>
+            <div class="description" ><%=list[i].district_name%>－<%=list[i].resblock_name%></div>
+          </a>
+          <%if(list[i].rooms){%>
+            <p class="area">
+              <%=list[i].rooms%>
+              <%if(list[i].min_frame_area != '' && list[i].max_frame_area != ''){%>
+                &nbsp;-&nbsp;
+                <%=list[i].min_frame_area%>~<%=list[i].max_frame_area%>平
+              <%}%>
+            </p>
+          <%}%>
+          <div class="price">
+            <%if(list[i].show_price && list[i].show_price != 0){%>
+              <i><%=list[i].show_price%></i>
+              <%=list[i].show_price_unit%>
+            <%}else{%>
+              价格待定
+            <%}%>
+          </div>
+        </li>
+      <%}%>
+    </ul>
+  </div>
+</script>
+
+<script type="text/javascript">
+require(['ershoufang/sellListV2/index'], function (main) {
+  main({
+    sidebar:{"type":"resblock","cityId":110000,"uuid":"e6b669d5-2373-4765-9f1b-f0a5a7472c56","ucid":null,"id":1111027378022},
+    lessResult: '1',
+    url:'/web/ershoufang/sidebar',
+    xuequUrl : '/web/ershoufang/sidebarxuequ',
+    ifXuqu: "\/ershoufang\/",
+    ids: '101101424913,101102524791,101102095865,101102498518,101101130988,101102574068',
+    SIRKeyword:"",
+    count: 6,
+    pageNum:1,
+    cid: 1111027378022,
+    bid: null,
+    ucid: '',
+    uuid: 'e6b669d5-2373-4765-9f1b-f0a5a7472c56',
+    loadingImg: 'https://s1.ljcdn.com/feroot/pc/asset/ershoufang/sellDetail/img/loading.gif?_v=20180223171650444',
+    qrImg: '//ajax.api.lianjia.com/qr/getDownloadQr'
+  });
+
+});
+
+
+;;+function() {
+    LjUserTrack.send({
+        "ljweb_id": "10001",
+        "ljweb_mod": "ershoufang_list_view",
+        "ljweb_bl": "spk_0",
+        "ljweb_el": "6",
+        "ljweb_value": "1111027378022",
+    });
+    var isHaveAgentCard = false
+    var clickLinkBl = 'list';
+    var resblockId = '';
+    if(isHaveAgentCard){
+      clickLinkBl = 'list_have_sem_card';
+      resblockId = "1111027378022"
+    }
+    $(document.body).on("click", "[data-el='ershoufang']", function() {
+        var $m = $(this);
+        LjUserTrack.send({
+            "ljweb_id": "10002",
+            "ljweb_mod": "ershoufang_list_list",
+            "ljweb_bl": clickLinkBl,
+            "ljweb_el": "ershoufang",
+            "ljweb_index": $m.attr("data-log_index"),
+            "ljweb_url": $m.attr("href"),
+            "ljweb_value":resblockId,
+            "ljweb_is_focus" : $m.attr("data-is_focus") || 0,
+            "ljweb_house_code" : $m.attr('data-housecode')
+        });
+
+    });
+
+    $(document.body).on("mousedown", ".input [data-bl='sug'] [data-log_value]", function() {
+        var $m = $(this);
+        var actionId = $m.closest('[data-bl="sug"]').attr("data-el") === 'history' ? '10004' : '10003';
+        LjUserTrack.send({
+            "ljweb_id": actionId,
+            "ljweb_mod": "ershoufang_list_search",
+            "ljweb_bl": "search",
+            "ljweb_el": $m.attr("data-log_value"),
+            "ljweb_index": $m.attr("data-log_index"),
+            "ljweb_value": $.trim($("#searchInput").val()),
+            "ljweb_url": $m.attr("href")
+        });
+    });
+    $("#searchForm").on("submit", function() {
+        var $m = $(this);
+        LjUserTrack.send({
+            "ljweb_id": "10008",
+            "ljweb_mod": "ershoufang_list_search",
+            "ljweb_bl": "search",
+            "ljweb_value": $.trim($("#searchInput").val())
+        });
+    });
+
+}();
+</script>
+<script>require(['common/suggestion'], function (suggestion) {window.defaultSuggest = suggestion.init({requestOptions: {cityId: '110000',cityName: '北京'},url: '/api/headerSearch?channel=ershoufang&q=',main: '#keyword-box',appendTo: '#suggest-cont',redirect: true});});</script><div class="loninContaner"><div class="overlay_bg"></div><div class="panel_login animated" id="dialog"><div class="panel_info"><i class="close_login" >&times</i><div class="panel_tab"><div class="title"><div class="fl">账号密码登录</div></div><div class="clear"></div><div id="con_login_user"><form action="" method="post"><ul><li class="item border-t userName"><input type="text" class="the_input topSpecial users" placeholder="请输入手机号"  maxlength="11" /></li><li class="item border-b pwd"><input type="password" class="the_input password" maxlength="20" placeholder="请输入登录密码"/><em class="password-view"></em></li><li class="item checkVerimg" style="display:none;"><input type="text" class="the_input ver-img" maxlength="6"  placeholder="请输入验证码"/><img class="verImg"></li><li class="item drag" style="display:none;"><div id="drag"></div></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_01"><label class="checkbox-btn"><span class="active"><input type="checkbox" name="remember" value="1" class="mind-login" checked/></span>7天内免登录</label><a href="javascript:;" rel="nofollow" class="toforget">忘记密码</a></li><li class="li_btn"><a class="login-user-btn"  />登录</a></li><li class="footer-link"><a href="javascript:;" rel="nofollow" class="totellogin">手机快捷登录</a></li></ul></form></div><div id="con_login_agent" class="undis"><form action="" method="post"><ul><li class="item"><dd></dd><input type="text" class="the_input users" placeholder="输入经纪人ID号码" /></li><li class="item"><input type="password" class="the_input password"  placeholder="登录密码"/></li><li class="li_01"><label class="checkbox-btn"><span class="active"><input type="checkbox" name="remember" value="1" class="mind-login" checked/></span>7天内免登录</label><a href="https://passport.lianjDia.com/register/resources/lianjia/forget.html?service=http://bj.lianjia.com/" rel="nofollow">忘记密码</a></li><li><input class="login-agent-btn" value="立即登录"/></li></ul></form></div></div></div><div class="registered"></div></div><div class="panel_login animated" id="dialog_tel"><div class="panel_info"><i class="close_login">&times</i><div class="panel_tab"><div class="title"><div class="fl">手机快捷登录</div><div class="register_text_tel">别担心，无账号自动注册不会导致手机号被泄露</div></div><div class="clear"></div><div id="con_login_user_tel"><form action="" method="post"><ul><li class="item border-t userName"><input type="text" class="the_input topSpecial users_tel" maxlength="11" placeholder="请输入手机号" /></li><!-- <li class="item pwd"><input type="password" class="the_input password_tel"  placeholder="请输入短信验证码"/></li> --><li class="item checkVerimg" style=""><input type="text" class="the_input ver-img" maxlength="6"  placeholder="请输入验证码"/><img class="verImg"></li><li class="item border-b Verify"><input type="text" class="the_input verifycode" maxlength="6"  placeholder="请输入短信验证码"/><a class="send_verify_code" id="send_verify_code_tel" href="javascript:;" rel="nofollow"><em>获取验证码</em></a></li><li class="send_verify_code_s" id="send_verify_code_tel_s" href="javascript:;" rel="nofollow"><em>没有收到验证码？</em><a class="voice_a">发送语音验证码</a></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_01"><label class="checkbox-btn"><span class="active"><input type="checkbox" name="remember" value="1" class="mind-login" checked/></span>7天内免登录</label></li><li class="li_btn"><a class="login-user-tel-btn"  />登录</a></li><li class="footer-link"><a href="javascript:;" rel="nofollow" class="tologin">账号密码登录</a></li></ul></form></div></div></div><div class="registered"></div></div><div class="panel_login animated" id="dialog_reg"><div class="panel_info"><i class="close_login">&times</i><div class="panel_tab"><div class="title"><div class="fl">手机号码注册</div><label class="fr register_text">已有账号？<a href="javascript:;" rel="nofollow" class="tologin">去登录</a></label></div><div class="clear"></div><div id="con_login_user_reg"><form action="" method="post"><ul><li class="item border-t userName"><input type="text" class="the_input topSpecial users_reg"  maxlength="11" placeholder="请输入手机号" /></li><li class="item checkVerimg" style=""><input type="text" class="the_input ver-img" maxlength="6"  placeholder="请输入验证码"/><img class="verImg"></li><li class="item border-c Verify"><input type="text" class="the_input verifycode" maxlength="6"  placeholder="请输入短信验证码"/><a class="send_verify_code" id="send_verify_code_reg" href="javascript:;" rel="nofollow"><em>获取验证码</em></a></li><li class="item border-b pwd"><input type="password" class="the_input password_reg" maxlength="20"  placeholder="请输入密码（最少8位，数字+字母）"/><em class="password-view"></em></li><li class="send_verify_code_s" id="send_verify_code_reg_s" href="javascript:;" rel="nofollow"><em>没有收到验证码？</em><a class="voice_a">发送语音验证码</a></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_01"><label class="checkbox-btn"><span class="active"><input type="checkbox" name="read" value="1" class="read-protocol" checked/></span>我已阅读并同意</label><a class="toprotocol" href="//www.lianjia.com/zhuanti/protocol" target="_blank" >《链家用户使用协议》</a></li><li class="li_btn"><a class="register-user-btn"  />注册</a></li></ul></form></div></div></div><div class="registered"></div></div><div class="panel_login animated" id="dialog_forget"><div class="panel_info"><i class="close_login">&times</i><div class="panel_tab"><div class="title"><div class="fl">找回密码</div></div><div class="clear"></div><div id="con_forget_user_tel" class="con_forget_user_tel"><form action="" method="post"><ul><li class="item border-t userName"><input type="text" class="the_input topSpecial user_forget_phone" placeholder="请输入手机号"  maxlength="11" /></li><li class="item checkVerimg" style=""><input type="text" class="the_input ver-img" maxlength="6"  placeholder="请输入验证码"/><img class="verImg"></li><li class="item border-b Verify"><input type="text" class="the_input verifycode" maxlength="6"  placeholder="请输入短信验证码"/><a class="send_verify_code" id="send_verify_code_forget" href="javascript:;" rel="nofollow"><em>获取验证码</em></a></li><li class="item border-t pwd" style="margin-top:-1px;"><input type="password" class="the_input password_reg" maxlength="20"  placeholder="请输入密码（最少8位，数字+字母）"/><em class="password-view"></em></li><li class="send_verify_code_s" id="send_verify_code_forget_s"><em>没有收到验证码？</em><a class="voice_a">发送语音验证码</a></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_btn"><a class="user-forget"  />修改密码</a></li></ul></form></div><div id="con_forget_user_pw" class="con_forget_user_pw"><form action="" method="post"><ul><li class="item border-t pwd"><input type="password" class="the_input password_reg" maxlength="20"  placeholder="请输入密码（最少8位，数字+字母）"/><em class="password-view"></em></li><li class="show-error"><dd>用户名或密码错误</dd></li><li class="li_btn"><a class="modify-user-pswd"  />修改密码</a></li></ul></form></div></div></div><div class="registered"></div></div></div>
+<!-- LianjiaIM Style --><link property='stylesheet' rel="stylesheet" href="https://s1.ljcdn.com/feroot/pc/asset/lianjiaIM/css/lianjiaim.css?_v=20180223171650444"/><script src="//s1.ljcdn.com/web-im-sdk/static/0.9/ljim-core.min.js?_v=20180227"></script><script>(function() {var imConf = {"ajaxroot":"\/\/ajax.api.lianjia.com\/","imAppid":"LIANJIA_WEB_20160624","imAppkey":"6dfdcee27d78b1107fceeca55d80b7bd"};$.listener.on('userInfo', function (data) {if (data.code === 1) {data.ucid = '';}require(['lianjiaIM/lianjiaim'], function (LianjiaIM) {var ljim = new LianjiaIM({appid: imConf.imAppid,appkey: imConf.imAppkey,userData: data,staticRoot: 'https://s1.ljcdn.com/feroot/?_v=20180223171650444'});});});})();</script><script type="text/javascript">var advert = 'https://s1.ljcdn.com/feroot/pc/asset/common/advert.js?_v=20180223171650444';
+    $.listener.on('userInfo', function (data) {
+      window.loginData = data;
+    });
+    var mvl = document.createElement('script');
+    mvl.type = 'text/javascript';
+    mvl.async = true;
+    mvl.src = advert;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(mvl, s);
+  </script><script type="text/javascript">(function(){var canonicalURL, curProtocol;var x=document.getElementsByTagName("link");if(x.length > 0){for (i=0;i<x.length;i++){if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){canonicalURL=x[i].href;}}}if (!canonicalURL){curProtocol = window.location.protocol.split(':')[0];}else{curProtocol = canonicalURL.split(':')[0];}if (!canonicalURL) canonicalURL = window.location.href;(function() {var e = /([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r = canonicalURL,t = document.referrer;if (!e.test(r)) {var n = (String(curProtocol).toLowerCase() === 'https') ? "https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif" : "//api.share.baidu.com/s.gif";t ? (n += "?r=" + encodeURIComponent(document.referrer), r && (n += "&l=" + r)) : r && (n += "?l=" + r);var i = new Image;i.src = n}})(window);})();</script><!--cookie mapping--><img src='https://cm.e.qq.com/cm.fcg?u=248b9273a849b4bc2bfa58b70247d90a&t=1519735669&p=9ead71b51eff1169fcd4385d1118407c&platform=PC&gdt_dspid=4169211&gdt_dsp_checksum=9ead71b51eff1169fcd4385d1118407c&gdt_dsp_timestamp=1519735669' alt="cookie_mapping_url" style="display: none;"></body></html>
