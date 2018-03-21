@@ -2,6 +2,7 @@ package com.example.spider.repository;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Set;
 
 import com.example.spider.domain.HistoryData;
 
@@ -31,6 +32,9 @@ public interface HistoryDataRepository extends JpaRepository<HistoryData, String
     List<HistoryData> findByDistrictId(String id);
 
     List<HistoryData> findByTotalPriceContains(String key);
+
+    @Query("select h.id from HistoryData h")
+    Set<String> findIdList();
 
     @Query("select h from HistoryData h where (updateTime is null or updateTime <= ?1) and totalPrice <> '暂无价格'")
     List<HistoryData> findNeedUpdateDatas(LocalDateTime time);

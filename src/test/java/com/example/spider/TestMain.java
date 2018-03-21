@@ -1,4 +1,4 @@
-package com.example;
+package com.example.spider;
 
 import java.io.File;
 import java.time.format.DateTimeFormatter;
@@ -14,12 +14,12 @@ import org.jsoup.select.Elements;
 /**
  * @author LiuQi - [Created on 2018-02-24]
  */
-public class Test {
+public class TestMain {
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     private static final ObjectMapper mapper = new ObjectMapper();
 
     public static void main(String[] args) throws Exception {
-        File file = new File(Test.class.getResource("/secondList.html").toURI());
+        File file = new File(TestMain.class.getResource("/secondList.html").toURI());
         Document document = Jsoup.parse(file, "utf-8");
 
         Elements elements = document.select("ul.sellListContent").select("div.info");

@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-import com.example.runner.TaskRunner;
+import com.example.TaskRunner;
 import com.example.analysis.Domain.AnalysisHistory;
 import com.example.analysis.repository.AnalysisHistoryRepository;
 import com.example.DebugLogger;

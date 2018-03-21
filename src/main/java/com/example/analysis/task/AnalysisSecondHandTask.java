@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.example.DebugLogger;
-import com.example.runner.TaskRunner;
+import com.example.TaskRunner;
 import com.example.analysis.Domain.AnalysisSecondHand;
 import com.example.analysis.repository.AnalysisSecondHandRepository;
 import com.example.spider.domain.SecondHandData;

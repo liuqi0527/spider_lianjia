@@ -3,7 +3,7 @@ package com.example.spider.task;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import com.example.runner.TaskRunner;
+import com.example.TaskRunner;
 import com.example.DebugLogger;
 import com.example.spider.domain.CommunityData;
 import com.example.spider.domain.SecondHandData;
@@ -38,6 +38,7 @@ public class SecondHandTask implements TaskRunner {
     @Override
     public void run() {
         List<CommunityData> list = communityRepository.findAll();
+        secondHandRepository.deleteAllInBatch();
         int size = list.size();
         for (int i = 0; i < size; i++) {
             CommunityData data = list.get(i);

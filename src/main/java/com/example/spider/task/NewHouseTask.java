@@ -1,7 +1,7 @@
 package com.example.spider.task;
 
 import com.example.DebugLogger;
-import com.example.runner.TaskRunner;
+import com.example.TaskRunner;
 import com.example.spider.domain.CommunityData;
 import com.example.spider.repository.HistoryDataRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.runner.TaskRunner;
+import com.example.TaskRunner;
 import com.example.DebugLogger;
 import com.example.spider.domain.HistoryData;
 import com.example.spider.domain.TransactionData;
@@ -35,14 +35,14 @@ public class HistoryDetailTask implements TaskRunner {
 
     @Override
     public void run() {
-        updateAllData();
+        updateFuzzyPriceData();
     }
 
-    private void updateAllData() {
+    public void updateAllData() {
         updateDataList(historyDataRepository.findNeedUpdateDatas(LocalDateTime.now().plusDays(-30)));
     }
 
-    private void updateFuzzyPriceData() {
+    public void updateFuzzyPriceData() {
         updateDataList(historyDataRepository.findByTotalPriceContains("*"));
     }
 

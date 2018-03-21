@@ -1,8 +1,10 @@
 package com.example.spider.task;
 
 import java.time.LocalDateTime;
+import java.util.Collections;
+import java.util.Set;
 
-import com.example.runner.TaskRunner;
+import com.example.TaskRunner;
 import com.example.DebugLogger;
 import com.example.spider.domain.CommunityData;
 import com.example.spider.domain.HistoryData;
@@ -33,20 +35,42 @@ public class HistoryListTask implements TaskRunner {
     @Autowired
     private HistoryDataRepository historyDataRepository;
 
+    private Set<String> allHistoryHouseId;
+    private int newDataCount;
+
     @Override
     public void run() {
-        for (CommunityData data : communityRepository.findAll()) {
-            if (data.getFetchHistoryTime() == null || data.getFetchHistoryTime().plusDays(30).isBefore(LocalDateTime.now())) {
-                try {
-                    resolveCommunity(data);
-                    data.setFetchHistoryTime(LocalDateTime.now());
-                    communityRepository.save(data);
-                } catch (Exception e) {
-                    DebugLogger.error(e, "fetch community history data error", data.getId(), data.getName());
-                }
-            }
+        fetchAll(false);
+    }
+
+    /**
+     * 查询历史成交数据
+     * @param fetchAll true -> 删除已存储数据，全部重新获取；false -> 只更新数据库中没有的数据
+     */
+    public void fetchAll(boolean fetchAll) {
+        if (fetchAll) {
+            historyDataRepository.deleteAllInBatch();
+            allHistoryHouseId = Collections.emptySet();
+        } else {
+            allHistoryHouseId = historyDataRepository.findIdList();
         }
 
+
+        DebugLogger.info(String.format("当前拥有 %s 条记录", allHistoryHouseId.size()));
+
+        for (CommunityData data : communityRepository.findAll()) {
+//            if (data.getFetchHistoryTime() == null || data.getFetchHistoryTime().plusDays(1).isBefore(LocalDateTime.now())) {
+            try {
+                resolveCommunity(data);
+                data.setFetchHistoryTime(LocalDateTime.now());
+                communityRepository.save(data);
+            } catch (Exception e) {
+                DebugLogger.error(e, "fetch community history data error", data.getId(), data.getName());
+            }
+//            }
+        }
+
+        DebugLogger.info(String.format("共查询到 %s 条新纪录", newDataCount));
     }
 
     private void resolveCommunity(CommunityData communityData) throws Exception {
@@ -66,16 +90,20 @@ public class HistoryListTask implements TaskRunner {
                     String link = titleElement.attr("href");
                     String houseId = StringUtils.substringBefore(StringUtils.substringAfterLast(link, "/"), ".");
 
-                    HistoryData data = new HistoryData();
-                    data.setId(houseId);
-                    data.setCommunityId(communityData.getId());
-                    data.setDistrictId(communityData.getDistrictId());
-                    data.setTitle(titleElement.text());
-                    data.setLink(link);
-                    data.setDealDate(element.select(".dealDate").first().text());
-                    data.setTotalPrice(element.select(".totalPrice").first().text());
-                    data.setUnitPrice(element.select(".unitPrice").first().text());
-                    historyDataRepository.save(data);
+                    if (!allHistoryHouseId.contains(houseId)) {
+                        newDataCount++;
+
+                        HistoryData data = new HistoryData();
+                        data.setId(houseId);
+                        data.setCommunityId(communityData.getId());
+                        data.setDistrictId(communityData.getDistrictId());
+                        data.setTitle(titleElement.text());
+                        data.setLink(link);
+                        data.setDealDate(element.select(".dealDate").first().text());
+                        data.setTotalPrice(element.select(".totalPrice").first().text());
+                        data.setUnitPrice(element.select(".unitPrice").first().text());
+                        historyDataRepository.save(data);
+                    }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
