@@ -1,14 +1,12 @@
 package com.example;
 
-import java.util.Set;
-
-import com.example.analysis.task.AnalysisHistoryTask;
-import com.example.analysis.task.AnalysisSecondHandTask;
-import com.example.spider.repository.HistoryDataRepository;
-import com.example.spider.task.HistoryDetailTask;
-import com.example.spider.task.HistoryListTask;
+import com.example.analysis.task.AnalysisSecondHandHistoryTask;
+import com.example.analysis.task.AnalysisSecondHandSellingTask;
+import com.example.spider.repository.SecondHandHistoryDataRepository;
+import com.example.spider.task.SecondHandHistoryDetailTask;
+import com.example.spider.task.SecondHandHistoryListTask;
 import com.example.spider.task.NewHouseTask;
-import com.example.spider.task.SecondHandTask;
+import com.example.spider.task.SecondHandSellingTask;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -20,24 +18,24 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication implements ApplicationRunner  {
 
 	@Autowired
-	private HistoryListTask historyListTask;
+	private SecondHandHistoryListTask historyListTask;
 
 	@Autowired
-	private HistoryDetailTask historyDetailTask;
+	private SecondHandHistoryDetailTask historyDetailTask;
 
 	@Autowired
-	private AnalysisHistoryTask analysisHistoryTask;
+	private AnalysisSecondHandHistoryTask analysisHistoryTask;
 
 
 	@Autowired
-	private SecondHandTask secondHandTask;
+	private SecondHandSellingTask secondHandTask;
 
 	@Autowired
-	private AnalysisSecondHandTask analysisSecondHandTask;
+	private AnalysisSecondHandSellingTask analysisSecondHandTask;
 
 
     @Autowired
-    private HistoryDataRepository historyDataRepository;
+    private SecondHandHistoryDataRepository historyDataRepository;
 
 	@Autowired
 	private NewHouseTask newHouseTask;
@@ -63,7 +61,7 @@ public class DemoApplication implements ApplicationRunner  {
 		analysisHistoryTask.run();
 		DebugLogger.info("历史成交数据分析完成");
 
-		//二手房数据需要创建新表，否则会覆盖以前数据
+		//在售二手房数据需要创建新表，否则会覆盖以前数据
 		DebugLogger.info("开始拉取挂牌二手房数据");
 		secondHandTask.run();
 		DebugLogger.info("挂牌二手房数据拉取完成");

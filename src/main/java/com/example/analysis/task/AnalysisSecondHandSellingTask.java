@@ -7,10 +7,10 @@ import java.util.Map;
 
 import com.example.DebugLogger;
 import com.example.TaskRunner;
-import com.example.analysis.Domain.AnalysisSecondHand;
-import com.example.analysis.repository.AnalysisSecondHandRepository;
-import com.example.spider.domain.SecondHandData;
-import com.example.spider.repository.SecondHandRepository;
+import com.example.analysis.Domain.AnalysisSecondHandSellingData;
+import com.example.analysis.repository.AnalysisSecondHandSellingRepository;
+import com.example.spider.domain.SecondHandSellingData;
+import com.example.spider.repository.SecondHandSellingRepository;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
@@ -21,30 +21,30 @@ import org.springframework.stereotype.Component;
  * @author LiuQi - [Created on 2018-03-02]
  */
 @Component
-public class AnalysisSecondHandTask implements TaskRunner {
+public class AnalysisSecondHandSellingTask implements TaskRunner {
 
     private LocalDate now = LocalDate.now();
 
     @Autowired
-    private SecondHandRepository secondHandRepository;
+    private SecondHandSellingRepository secondHandRepository;
 
     @Autowired
-    private AnalysisSecondHandRepository analysisSecondHandRepository;
+    private AnalysisSecondHandSellingRepository analysisSecondHandRepository;
 
-    private Map<Long, AnalysisSecondHand> map = new HashMap<>();
+    private Map<Long, AnalysisSecondHandSellingData> map = new HashMap<>();
 
     @Override
     public void run() {
         DebugLogger.info("开始查询数据");
-        List<SecondHandData> list = secondHandRepository.findAll();
+        List<SecondHandSellingData> list = secondHandRepository.findAll();
         int size = list.size();
 
         DebugLogger.info(String.format("查询完成，共%s条数据，开始统计", size));
 
         for (int index = 0; index < size; index++) {
-            SecondHandData data = list.get(index);
+            SecondHandSellingData data = list.get(index);
 
-            AnalysisSecondHand analysis = map.computeIfAbsent(data.getDistrictId(), k -> new AnalysisSecondHand(data.getDistrictId(), now));
+            AnalysisSecondHandSellingData analysis = map.computeIfAbsent(data.getDistrictId(), k -> new AnalysisSecondHandSellingData(data.getDistrictId(), now));
             analysis.setSaleAmount(analysis.getSaleAmount() + 1);
             analysis.setAvgPrice(analysis.getAvgPrice() + resolveNumber(data.getUnitPrice(), "元/平", 1));
         }
@@ -64,7 +64,7 @@ public class AnalysisSecondHandTask implements TaskRunner {
         return 0;
     }
 
-    private void calculateAvgPrice(AnalysisSecondHand secondHand) {
+    private void calculateAvgPrice(AnalysisSecondHandSellingData secondHand) {
         double avgPrice = ((double) secondHand.getAvgPrice()) / secondHand.getSaleAmount();
         secondHand.setAvgPrice((int)(Math.round(avgPrice)));
     }

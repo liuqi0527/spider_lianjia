@@ -3,7 +3,7 @@ package com.example.spider.task;
 import com.example.DebugLogger;
 import com.example.TaskRunner;
 import com.example.spider.domain.CommunityData;
-import com.example.spider.repository.HistoryDataRepository;
+import com.example.spider.repository.SecondHandHistoryDataRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.apache.commons.lang3.StringUtils;
@@ -27,7 +27,7 @@ public class NewHouseTask implements TaskRunner {
     private static final ObjectMapper mapper = new ObjectMapper();
 
     @Autowired
-    private HistoryDataRepository historyDataRepository;
+    private SecondHandHistoryDataRepository historyDataRepository;
 
     @Override
     public void run() {

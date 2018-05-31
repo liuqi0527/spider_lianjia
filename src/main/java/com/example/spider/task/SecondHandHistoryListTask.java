@@ -2,14 +2,15 @@ package com.example.spider.task;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
+import java.util.List;
 import java.util.Set;
 
 import com.example.TaskRunner;
 import com.example.DebugLogger;
 import com.example.spider.domain.CommunityData;
-import com.example.spider.domain.HistoryData;
+import com.example.spider.domain.SecondHandHistoryData;
 import com.example.spider.repository.CommunityRepository;
-import com.example.spider.repository.HistoryDataRepository;
+import com.example.spider.repository.SecondHandHistoryDataRepository;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -27,13 +28,13 @@ import org.springframework.stereotype.Component;
  * @author LiuQi - [Created on 2018-02-24]
  */
 @Component
-public class HistoryListTask implements TaskRunner {
+public class SecondHandHistoryListTask implements TaskRunner {
 
     @Autowired
     private CommunityRepository communityRepository;
 
     @Autowired
-    private HistoryDataRepository historyDataRepository;
+    private SecondHandHistoryDataRepository historyDataRepository;
 
     private Set<String> allHistoryHouseId;
     private int newDataCount;
@@ -45,6 +46,7 @@ public class HistoryListTask implements TaskRunner {
 
     /**
      * 查询历史成交数据
+     *
      * @param fetchAll true -> 删除已存储数据，全部重新获取；false -> 只更新数据库中没有的数据
      */
     public void fetchAll(boolean fetchAll) {
@@ -58,10 +60,13 @@ public class HistoryListTask implements TaskRunner {
 
         DebugLogger.info(String.format("当前拥有 %s 条记录", allHistoryHouseId.size()));
 
-        for (CommunityData data : communityRepository.findAll()) {
+        List<CommunityData> communityList = communityRepository.findAll();
+        int size = communityList.size();
+        for (int i = 0; i < size; i++) {
+            CommunityData data = communityList.get(i);
 //            if (data.getFetchHistoryTime() == null || data.getFetchHistoryTime().plusDays(1).isBefore(LocalDateTime.now())) {
             try {
-                resolveCommunity(data);
+                resolveCommunity(i, size, data);
                 data.setFetchHistoryTime(LocalDateTime.now());
                 communityRepository.save(data);
             } catch (Exception e) {
@@ -73,13 +78,13 @@ public class HistoryListTask implements TaskRunner {
         DebugLogger.info(String.format("共查询到 %s 条新纪录", newDataCount));
     }
 
-    private void resolveCommunity(CommunityData communityData) throws Exception {
+    private void resolveCommunity(int index, int size, CommunityData communityData) throws Exception {
         int pageSize = getPageSize(communityData);
         if (pageSize <= 0) {
             return;
         }
 
-        DebugLogger.info(String.format("%s 成交记录共 %s页", communityData.getName(), pageSize));
+        DebugLogger.info(String.format("(%s/%s) %s 成交记录共 %s页", index + 1, size, communityData.getName(), pageSize));
 
         for (int page = 1; page <= pageSize; page++) {
             String pageUrl = String.format("https://bj.lianjia.com/chengjiao/pg%dc%d/", page, communityData.getId());
@@ -93,7 +98,7 @@ public class HistoryListTask implements TaskRunner {
                     if (!allHistoryHouseId.contains(houseId)) {
                         newDataCount++;
 
-                        HistoryData data = new HistoryData();
+                        SecondHandHistoryData data = new SecondHandHistoryData();
                         data.setId(houseId);
                         data.setCommunityId(communityData.getId());
                         data.setDistrictId(communityData.getDistrictId());

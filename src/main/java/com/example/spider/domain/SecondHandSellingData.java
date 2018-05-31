@@ -17,8 +17,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "second_hand_data_03_20")
-public class SecondHandData {
+@Table(name = "second_hand_selling_data_05_30")
+public class SecondHandSellingData {
 
     @Id
     private String id;

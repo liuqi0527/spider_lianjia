@@ -15,9 +15,9 @@ import lombok.Setter;
 @Setter
 @Getter
 @Entity
-@IdClass(AnalysisSecondHand.Key.class)
-@Table(name = "analysis_second_hand")
-public class AnalysisSecondHand {
+@IdClass(AnalysisSecondHandSellingData.Key.class)
+@Table(name = "analysis_second_hand_selling")
+public class AnalysisSecondHandSellingData {
 
     @Id
     private long districtId;
@@ -26,10 +26,10 @@ public class AnalysisSecondHand {
     private long saleAmount;
     private long avgPrice;
 
-    public AnalysisSecondHand() {
+    public AnalysisSecondHandSellingData() {
     }
 
-    public AnalysisSecondHand(long districtId, LocalDate updateDate) {
+    public AnalysisSecondHandSellingData(long districtId, LocalDate updateDate) {
         this.districtId = districtId;
         this.updateDate = updateDate;
     }

@@ -5,12 +5,12 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 import com.example.TaskRunner;
-import com.example.analysis.Domain.AnalysisHistory;
-import com.example.analysis.repository.AnalysisHistoryRepository;
+import com.example.analysis.Domain.AnalysisSecondHandHistoryData;
+import com.example.analysis.repository.AnalysisSecondHandHistoryRepository;
 import com.example.DebugLogger;
-import com.example.spider.domain.HistoryData;
+import com.example.spider.domain.SecondHandHistoryData;
 import com.example.spider.domain.TransactionData;
-import com.example.spider.repository.HistoryDataRepository;
+import com.example.spider.repository.SecondHandHistoryDataRepository;
 import com.example.util.Util;
 import com.fasterxml.jackson.core.type.TypeReference;
 
@@ -28,17 +28,17 @@ import org.springframework.stereotype.Component;
  * @author LiuQi - [Created on 2018-03-01]
  */
 @Component
-public class AnalysisHistoryTask implements TaskRunner {
+public class AnalysisSecondHandHistoryTask implements TaskRunner {
 
     private static final int PAGE_SIZE = 50000;
 
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
     @Autowired
-    private HistoryDataRepository historyDataRepository;
+    private SecondHandHistoryDataRepository historyDataRepository;
 
     @Autowired
-    private AnalysisHistoryRepository analysisHistoryRepository;
+    private AnalysisSecondHandHistoryRepository analysisHistoryRepository;
 
     private Map<String, Map<LocalDate, Data>> record = new HashMap<>();
 
@@ -52,12 +52,12 @@ public class AnalysisHistoryTask implements TaskRunner {
     }
 
     private void analysis() {
-        Page<HistoryData> firstPage = historyDataRepository.findAll(new PageRequest(1, PAGE_SIZE));
+        Page<SecondHandHistoryData> firstPage = historyDataRepository.findAll(new PageRequest(1, PAGE_SIZE));
         int totalPage = firstPage.getTotalPages();
 
         DebugLogger.info(String.format("共%s页记录，开始读取数据...", totalPage));
         for (int pageIndex = 1; pageIndex < totalPage; pageIndex++) {
-            Page<HistoryData> page = pageIndex == 1 ? firstPage : historyDataRepository.findAll(new PageRequest(pageIndex, PAGE_SIZE));
+            Page<SecondHandHistoryData> page = pageIndex == 1 ? firstPage : historyDataRepository.findAll(new PageRequest(pageIndex, PAGE_SIZE));
             page.forEach(historyData -> {
                 List<TransactionData> transactionList = resolveRecord(historyData.getDealRecords());
                 if (!transactionList.isEmpty()) {
@@ -73,11 +73,11 @@ public class AnalysisHistoryTask implements TaskRunner {
 
 
         DebugLogger.info("读取完成,开始分析...");
-        Map<AnalysisHistory.Key, AnalysisHistory> resultMap = new HashMap<>();
+        Map<AnalysisSecondHandHistoryData.Key, AnalysisSecondHandHistoryData> resultMap = new HashMap<>();
         for (Map<LocalDate, Data> map : record.values()) {
             for (Data data : map.values()) {
-                AnalysisHistory.Key key = new AnalysisHistory.Key(data.getDistrictId(), data.getDealDate().withDayOfMonth(1));
-                AnalysisHistory history = resultMap.computeIfAbsent(key, AnalysisHistory::new);
+                AnalysisSecondHandHistoryData.Key key = new AnalysisSecondHandHistoryData.Key(data.getDistrictId(), data.getDealDate().withDayOfMonth(1));
+                AnalysisSecondHandHistoryData history = resultMap.computeIfAbsent(key, AnalysisSecondHandHistoryData::new);
                 history.setDealAmount(history.getDealAmount() + 1);
 
                 if (data.getUnitPrice() > 0) {
@@ -99,7 +99,7 @@ public class AnalysisHistoryTask implements TaskRunner {
         return Math.round(value);
     }
 
-    private void build(HistoryData historyData, String totalPrice, String unitPrice, String dealDate) {
+    private void build(SecondHandHistoryData historyData, String totalPrice, String unitPrice, String dealDate) {
         Data data = new Data();
         data.setDistrictId(historyData.getDistrictId());
         data.setHouseId(historyData.getId());

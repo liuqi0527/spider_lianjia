@@ -6,9 +6,9 @@ import java.util.List;
 import com.example.TaskRunner;
 import com.example.DebugLogger;
 import com.example.spider.domain.CommunityData;
-import com.example.spider.domain.SecondHandData;
+import com.example.spider.domain.SecondHandSellingData;
 import com.example.spider.repository.CommunityRepository;
-import com.example.spider.repository.SecondHandRepository;
+import com.example.spider.repository.SecondHandSellingRepository;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -27,13 +27,13 @@ import org.springframework.stereotype.Component;
  * @author LiuQi - [Created on 2018-02-24]
  */
 @Component
-public class SecondHandTask implements TaskRunner {
+public class SecondHandSellingTask implements TaskRunner {
 
     @Autowired
     private CommunityRepository communityRepository;
 
     @Autowired
-    private SecondHandRepository secondHandRepository;
+    private SecondHandSellingRepository secondHandRepository;
 
     @Override
     public void run() {
@@ -82,7 +82,7 @@ public class SecondHandTask implements TaskRunner {
                     link = titleElement.attr("href");
                     id = StringUtils.substringBefore(StringUtils.substringAfterLast(link, "/"), ".");
 
-                    SecondHandData data = new SecondHandData();
+                    SecondHandSellingData data = new SecondHandSellingData();
                     data.setId(id);
                     data.setLink(link);
                     data.setTitle(title);

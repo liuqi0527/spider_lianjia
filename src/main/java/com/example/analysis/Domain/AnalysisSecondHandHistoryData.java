@@ -19,8 +19,8 @@ import lombok.ToString;
 @Setter
 @ToString
 @Entity
-@Table(name = "analysis_history")
-public class AnalysisHistory {
+@Table(name = "analysis_second_hand_history")
+public class AnalysisSecondHandHistoryData {
 
     @EmbeddedId
     private Key key;
@@ -32,10 +32,10 @@ public class AnalysisHistory {
     @Transient
     private long totalPriceCount;
 
-    public AnalysisHistory() {
+    public AnalysisSecondHandHistoryData() {
     }
 
-    public AnalysisHistory(Key key) {
+    public AnalysisSecondHandHistoryData(Key key) {
         this.key = key;
     }
 

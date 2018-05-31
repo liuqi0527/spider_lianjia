@@ -6,9 +6,9 @@ import java.util.List;
 
 import com.example.TaskRunner;
 import com.example.DebugLogger;
-import com.example.spider.domain.HistoryData;
+import com.example.spider.domain.SecondHandHistoryData;
 import com.example.spider.domain.TransactionData;
-import com.example.spider.repository.HistoryDataRepository;
+import com.example.spider.repository.SecondHandHistoryDataRepository;
 import com.example.util.Util;
 
 import org.apache.commons.lang3.StringUtils;
@@ -28,10 +28,10 @@ import org.springframework.stereotype.Component;
  * @author LiuQi - [Created on 2018-02-24]
  */
 @Component
-public class HistoryDetailTask implements TaskRunner {
+public class SecondHandHistoryDetailTask implements TaskRunner {
 
     @Autowired
-    private HistoryDataRepository historyDataRepository;
+    private SecondHandHistoryDataRepository historyDataRepository;
 
     @Override
     public void run() {
@@ -46,13 +46,13 @@ public class HistoryDetailTask implements TaskRunner {
         updateDataList(historyDataRepository.findByTotalPriceContains("*"));
     }
 
-    private void updateDataList(List<HistoryData> list) {
+    private void updateDataList(List<SecondHandHistoryData> list) {
         int size = list.size();
 
         DebugLogger.info(String.format("详细信息待更新数量 --> %s", size));
 
         for (int index = 0; index < list.size(); index++) {
-            HistoryData data = list.get(index);
+            SecondHandHistoryData data = list.get(index);
             try {
                 resolveHistoryDetail(data);
                 DebugLogger.info(String.format("进度 %d/%d", index + 1, size));
@@ -62,7 +62,7 @@ public class HistoryDetailTask implements TaskRunner {
         }
     }
 
-    private void resolveHistoryDetail(HistoryData data) throws Exception {
+    private void resolveHistoryDetail(SecondHandHistoryData data) throws Exception {
         String url = "https://bj.lianjia.com/chengjiao/" + data.getId() + ".html";
         Document document = Jsoup.parse(getHtml(url), "utf-8");
 
@@ -113,7 +113,7 @@ public class HistoryDetailTask implements TaskRunner {
         historyDataRepository.save(data);
     }
 
-    private void priceData(Document document, HistoryData data) {
+    private void priceData(Document document, SecondHandHistoryData data) {
         Element priceElement = document.select("div.price").first();
         if (priceElement == null) {
             DebugLogger.error("未发现交易数据", data.getId(), data.getTitle());
