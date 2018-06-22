@@ -1,7 +1,6 @@
-package com.example.analysis.Domain;
+package com.example.spider.domain;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 
 import javax.persistence.*;
 
@@ -22,16 +21,21 @@ public class AnalysisSecondHandSellingData {
     @Id
     private long districtId;
     @Id
-    private LocalDate updateDate;
-    private long saleAmount;
+    private String date;
+
     private long avgPrice;
+
+    private long saleAmount;//在售数量
+    private long dealAmount;//成交数量
+    private long absoluteIncrAmount;//相比上个月的绝对增量
+    private long newSaleAmount;//新挂牌量 = 下个月挂牌总量 + 本月成交量 - 本月挂牌总量
 
     public AnalysisSecondHandSellingData() {
     }
 
-    public AnalysisSecondHandSellingData(long districtId, LocalDate updateDate) {
+    public AnalysisSecondHandSellingData(long districtId, String date) {
         this.districtId = districtId;
-        this.updateDate = updateDate;
+        this.date = date;
     }
 
     @Getter
@@ -40,14 +44,14 @@ public class AnalysisSecondHandSellingData {
     public static class Key implements Serializable {
 
         private long districtId;
-        private LocalDate updateDate;
+        private String date;
 
         public Key() {
         }
 
-        public Key(long districtId, LocalDate updateDate) {
+        public Key(long districtId, String date) {
             this.districtId = districtId;
-            this.updateDate = updateDate;
+            this.date = date;
         }
     }
 }

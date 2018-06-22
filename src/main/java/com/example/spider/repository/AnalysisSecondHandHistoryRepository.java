@@ -1,8 +1,8 @@
-package com.example.analysis.repository;
+package com.example.spider.repository;
 
 import java.util.List;
 
-import com.example.analysis.Domain.AnalysisSecondHandHistoryData;
+import com.example.spider.domain.AnalysisSecondHandHistoryData;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface AnalysisSecondHandHistoryRepository extends JpaRepository<AnalysisSecondHandHistoryData, AnalysisSecondHandHistoryData.Key> {
+
 
     @Override
     List<AnalysisSecondHandHistoryData> findAll();

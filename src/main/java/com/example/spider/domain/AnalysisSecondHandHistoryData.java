@@ -1,9 +1,6 @@
-package com.example.analysis.Domain;
+package com.example.spider.domain;
 
 import java.io.Serializable;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Objects;
 
 import javax.persistence.*;
 
@@ -43,7 +40,7 @@ public class AnalysisSecondHandHistoryData {
         return key.getDistrictId();
     }
 
-    public LocalDate getDate() {
+    public String getDate() {
         return key.getDate();
     }
 
@@ -53,12 +50,12 @@ public class AnalysisSecondHandHistoryData {
     @EqualsAndHashCode
     public static class Key implements Serializable {
         private long districtId;
-        private LocalDate date;
+        private String date;
 
         public Key() {
         }
 
-        public Key(long districtId, LocalDate date) {
+        public Key(long districtId, String date) {
             this.districtId = districtId;
             this.date = date;
         }

@@ -1,22 +1,20 @@
-package com.example.analysis.task;
+package com.example.spider.task;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 import com.example.TaskRunner;
-import com.example.analysis.Domain.AnalysisSecondHandHistoryData;
-import com.example.analysis.repository.AnalysisSecondHandHistoryRepository;
+import com.example.spider.domain.AnalysisSecondHandHistoryData;
+import com.example.spider.repository.AnalysisSecondHandHistoryRepository;
 import com.example.DebugLogger;
 import com.example.spider.domain.SecondHandHistoryData;
 import com.example.spider.domain.TransactionData;
 import com.example.spider.repository.SecondHandHistoryDataRepository;
+import com.example.util.LocalCache;
 import com.example.util.Util;
 import com.fasterxml.jackson.core.type.TypeReference;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +28,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class AnalysisSecondHandHistoryTask implements TaskRunner {
 
+    private static final LocalDate startDate = LocalDate.of(2015, 1, 1);
+
     private static final int PAGE_SIZE = 50000;
 
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
@@ -40,7 +40,10 @@ public class AnalysisSecondHandHistoryTask implements TaskRunner {
     @Autowired
     private AnalysisSecondHandHistoryRepository analysisHistoryRepository;
 
-    private Map<String, Map<LocalDate, Data>> record = new HashMap<>();
+    @Autowired
+    private LocalCache cache;
+
+    Map<AnalysisSecondHandHistoryData.Key, AnalysisSecondHandHistoryData> resultMap = new HashMap<>();
 
     private int noDateDealCount = 0;
 
@@ -55,8 +58,8 @@ public class AnalysisSecondHandHistoryTask implements TaskRunner {
         Page<SecondHandHistoryData> firstPage = historyDataRepository.findAll(new PageRequest(1, PAGE_SIZE));
         int totalPage = firstPage.getTotalPages();
 
-        DebugLogger.info(String.format("共%s页记录，开始读取数据...", totalPage));
-        for (int pageIndex = 1; pageIndex < totalPage; pageIndex++) {
+        DebugLogger.info(String.format("共%s页记录，开始分析数据...", totalPage));
+        for (int pageIndex = 1; pageIndex <= totalPage; pageIndex++) {
             Page<SecondHandHistoryData> page = pageIndex == 1 ? firstPage : historyDataRepository.findAll(new PageRequest(pageIndex, PAGE_SIZE));
             page.forEach(historyData -> {
                 List<TransactionData> transactionList = resolveRecord(historyData.getDealRecords());
@@ -72,23 +75,9 @@ public class AnalysisSecondHandHistoryTask implements TaskRunner {
         }
 
 
-        DebugLogger.info("读取完成,开始分析...");
-        Map<AnalysisSecondHandHistoryData.Key, AnalysisSecondHandHistoryData> resultMap = new HashMap<>();
-        for (Map<LocalDate, Data> map : record.values()) {
-            for (Data data : map.values()) {
-                AnalysisSecondHandHistoryData.Key key = new AnalysisSecondHandHistoryData.Key(data.getDistrictId(), data.getDealDate().withDayOfMonth(1));
-                AnalysisSecondHandHistoryData history = resultMap.computeIfAbsent(key, AnalysisSecondHandHistoryData::new);
-                history.setDealAmount(history.getDealAmount() + 1);
-
-                if (data.getUnitPrice() > 0) {
-                    history.setTotalPriceCount(history.getTotalPriceCount() + 1);
-                    history.setTotalPrice(history.getTotalPrice() + data.getUnitPrice());
-                }
-            }
-        }
         resultMap.values().forEach(history -> history.setAvgPrice(formatDouble(history.getTotalPrice() / history.getTotalPriceCount())));
-
         DebugLogger.info(String.format("分析完成，未记录日期的数据共%d条， 未记录价格的数据共%d条", noDateDealCount, noPriceDealCount));
+
         DebugLogger.info("开始持久化操作...");
         analysisHistoryRepository.deleteAll();
         analysisHistoryRepository.save(resultMap.values());
@@ -99,24 +88,30 @@ public class AnalysisSecondHandHistoryTask implements TaskRunner {
         return Math.round(value);
     }
 
-    private void build(SecondHandHistoryData historyData, String totalPrice, String unitPrice, String dealDate) {
-        Data data = new Data();
-        data.setDistrictId(historyData.getDistrictId());
-        data.setHouseId(historyData.getId());
-        data.setDealDate(resolveDate(dealDate));
-        data.setTotalPrice(resolveNumber(totalPrice, "万", 10000));
-        data.setUnitPrice(resolveNumber(unitPrice, "元/平", 1));
-        if (data.getUnitPrice() <= 0) {
-            noPriceDealCount++;
-        }
-        if (data.getDealDate() == null) {
+    private void build(SecondHandHistoryData historyData, String totalPriceStr, String unitPriceStr, String dealDate) {
+        LocalDate date = resolveDate(dealDate);
+        if (date == null) {
             noDateDealCount++;
+            return;
+        }
+        if (date.isBefore(startDate) || !cache.isInterest(historyData.getDistrictId())) {
+            //进行日期和区域筛选
+            return;
+        }
+
+        String dateString = Util.toYearMonth(date);
+        long totalPrice = resolveNumber(totalPriceStr, "万", 10000);
+        long unitPrice = resolveNumber(unitPriceStr, "元/平", 1);
+
+        AnalysisSecondHandHistoryData.Key key = new AnalysisSecondHandHistoryData.Key(historyData.getDistrictId(), dateString);
+        AnalysisSecondHandHistoryData history = resultMap.computeIfAbsent(key, AnalysisSecondHandHistoryData::new);
+        history.setDealAmount(history.getDealAmount() + 1);
+
+        if (unitPrice > 0) {
+            history.setTotalPriceCount(history.getTotalPriceCount() + 1);
+            history.setTotalPrice(history.getTotalPrice() + unitPrice);
         } else {
-            Map<LocalDate, Data> dateMap = record.computeIfAbsent(data.getHouseId(), key -> new HashMap<>());
-            Data old = dateMap.put(data.getDealDate(), data);
-            if (old != null) {
-                DebugLogger.error("交易数据重复", old.toString(), data.toString());
-            }
+            noPriceDealCount++;
         }
     }
 
@@ -161,17 +156,5 @@ public class AnalysisSecondHandHistoryTask implements TaskRunner {
             DebugLogger.error(e);
             return Collections.emptyList();
         }
-    }
-
-    @Getter
-    @Setter
-    @ToString
-    private class Data {
-
-        private long districtId;
-        private String houseId;
-        private LocalDate dealDate;
-        private long totalPrice;
-        private long unitPrice;
     }
 }

@@ -33,12 +33,12 @@ public class SecondHandSellingTask implements TaskRunner {
     private CommunityRepository communityRepository;
 
     @Autowired
-    private SecondHandSellingRepository secondHandRepository;
+    private SecondHandSellingRepository sellingRepository;
 
     @Override
     public void run() {
         List<CommunityData> list = communityRepository.findAll();
-        secondHandRepository.deleteAllInBatch();
+        sellingRepository.deleteAllInBatch();
         int size = list.size();
         for (int i = 0; i < size; i++) {
             CommunityData data = list.get(i);
@@ -116,7 +116,7 @@ public class SecondHandSellingTask implements TaskRunner {
                     String taxFree = element.select("taxfree").text();
                     String five = element.select("five").text();
                     data.setTaxInfo(join(taxFree, five));
-                    secondHandRepository.save(data);
+                    sellingRepository.save(data);
                 } catch (Exception e) {
                     DebugLogger.error(e, title, id, link);
                 }
