@@ -1,16 +1,20 @@
 package com.example;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import javax.annotation.PostConstruct;
 
 import com.example.spider.domain.AnalysisSecondHandHistoryData;
 import com.example.spider.domain.AnalysisSecondHandSellingData;
 import com.example.spider.repository.AnalysisSecondHandHistoryRepository;
 import com.example.spider.repository.AnalysisSecondHandSellingRepository;
-import com.example.spider.task.*;
 import com.example.spider.repository.SecondHandHistoryDataRepository;
+import com.example.spider.task.*;
 import com.example.util.LocalCache;
 
+import org.apache.commons.lang3.tuple.Pair;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -54,36 +58,41 @@ public class DemoApplication implements ApplicationRunner {
     @Autowired
     private LocalCache cache;
 
+    private List<Pair<TaskRunner, String>> taskList = new ArrayList<>();
+
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @Override
-    public void run(ApplicationArguments args) throws Exception {
-        fetchAndAnalysisAll();
+    @PostConstruct
+    public void init() {
+        addTask(historyListTask, "拉取新成交数据");
+        addTask(historyDetailTask, "更新成交价格");
+        addTask(analysisHistoryTask, "分析历史成交数据");
+
+        addTask(secondHandTask, "拉取在售二手房数据");
+        addTask(analysisSecondHandTask, "分析在售二手房数据");
     }
 
-    private void fetchAndAnalysisAll() {
-        DebugLogger.info("开始拉取新成交数据...");
-        historyListTask.run();
+    private void addTask(TaskRunner runner, String title) {
+        taskList.add(Pair.of(runner, title));
+    }
 
-        DebugLogger.info("开始拉取成交价格数据");
-        historyDetailTask.run();
-        DebugLogger.info("历史成交数据全部更新完成");
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        runTaskList();
+    }
 
-        DebugLogger.info("开始分析历史成交数据");
-        analysisHistoryTask.run();
-        DebugLogger.info("历史成交数据分析完成");
-
-
-        //在售二手房数据需要创建新表，否则会覆盖以前数据
-        DebugLogger.info("开始拉取挂牌二手房数据");
-        secondHandTask.run();
-        DebugLogger.info("挂牌二手房数据拉取完成");
-
-        DebugLogger.info("开始分析挂牌二手房数据");
-        analysisSecondHandTask.run();
-        DebugLogger.info("挂牌二手房数据分析完成");
+    private void runTaskList() {
+        for (Pair<TaskRunner, String> pair : taskList) {
+            if (pair.getLeft() != null) {
+                DebugLogger.info(String.format("[开始] %s ...", pair.getRight()));
+                pair.getLeft().run();
+                DebugLogger.info(String.format("[完成] %s ", pair.getRight()));
+            } else {
+                DebugLogger.info(pair.getRight());
+            }
+        }
     }
 
     private void deleteUnInterestData() {
